@@ -1,0 +1,221 @@
+# Frequently Asked Questions
+### Common Questions from Trades Business Owners About Security
+
+---
+
+> These are the questions that actually come up when trades businesses start thinking about security — from business owners, office managers, and engineers. Honest answers, no jargon.
+
+---
+
+## Getting Started
+
+**"Do I actually need to worry about this? I'm a small heating company, not a bank."**
+
+Yes, but the level of worry should be proportionate. You're not a high-value target for sophisticated nation-state hackers. You are a realistic target for automated attacks (credential stuffing, phishing), and increasingly, for ransomware groups who specifically target SMEs because they tend to have weaker defences.
+
+The more practical reason to care: your customers increasingly ask about it. Larger commercial customers and public sector contracts routinely ask about security as part of tender processes. If you can't answer "yes" to basic questions, you lose jobs.
+
+And you hold customer personal data — home addresses, access arrangements, sometimes payment details. GDPR applies to you whether or not you think of yourself as a "data company."
+
+---
+
+**"Where do I start? I'm overwhelmed."**
+
+Start with the two things that would cause the most damage if they went wrong:
+
+1. **Your email account.** Turn on two-factor authentication. If someone takes over your email, they can impersonate you to customers, intercept invoice payments, and reset passwords on all your other accounts. Takes 5 minutes.
+
+2. **Your passwords.** Install Bitwarden (free), generate a strong password for each important account, and stop reusing passwords. Takes an afternoon to set up.
+
+Everything else — mobile device policies, backup plans, GDPR documentation — is built on the foundation of secure accounts. Start there.
+
+---
+
+**"I've been in business 15 years and never had a problem. Why change now?"**
+
+A few reasons:
+
+The threat landscape has changed. Automated attacks have become more sophisticated and more common. In 2010, ransomware mostly targeted large enterprises. Now it routinely hits small businesses, including trades.
+
+You probably have had problems you didn't know about. The average time between a breach occurring and being discovered is over 200 days. Credential stuffing attacks run quietly in the background. You might have had a password compromised in a third-party breach without knowing.
+
+The regulatory environment has changed. GDPR has teeth. A data breach that you couldn't have reasonably prevented is one thing. A data breach caused by having no security measures is a different conversation with the ICO.
+
+The commercial environment has changed. Customers ask now. If you can't show you take security seriously, you lose quotes.
+
+---
+
+## Mobile Devices
+
+**"Do I really need to control what my engineers do on their work phones?"**
+
+You need to ensure that customer data is protected on those phones. The practical minimum is:
+
+- Screen lock (so the data is protected if the phone is lost)
+- The engineers know where to store customer data (Tradify, not WhatsApp or camera roll)
+- You can wipe the phone if it's lost (Find My Device, free)
+
+Beyond that, "controlling" what engineers do isn't the point. The policy in this kit is deliberately minimal — it explicitly says "we're not monitoring what you do, just don't do anything stupid."
+
+Most engineers accept this because it's reasonable. The policy that gets followed is the policy people understand and agree with.
+
+---
+
+**"One of my lads refuses to put a PIN on his phone. What do I do?"**
+
+The polite version: explain what could happen if a customer's address ends up in someone else's hands because the phone was left in a van. That's a real scenario, not a theoretical one.
+
+The direct version: it's a company phone. You get to set the requirements for company phones.
+
+The pragmatic version: fingerprint is quicker than a PIN, and most resistance to screen locks is about the inconvenience of typing a PIN. If the objection is "it's annoying," fingerprint solves it. If the objection is something else, find out what it actually is.
+
+---
+
+**"What happens to the engineer's personal photos if we wipe a company phone?"**
+
+They're lost if the phone wasn't backed up. This is one of the reasons the policy is clear upfront that company phones are company property and may be wiped if lost.
+
+The practical answer: make sure engineers know this from day one, and advise them not to use company phones as their personal camera. The policy allows personal use, but personal photos should be backed up to their personal accounts (Google Photos, iCloud) if they care about them.
+
+When someone leaves, you can give them time to back up personal content before wiping the phone — that's reasonable practice.
+
+---
+
+**"Can I track my engineers' locations using the work phone?"**
+
+Technically, yes. Legally and practically, it's complicated.
+
+Under UK employment law and GDPR, covert surveillance of employees is generally not permitted. If you want to use location tracking, it needs to be: disclosed to employees, proportionate to a legitimate business need, and not used beyond that purpose.
+
+The emergency use case — locating a lost phone — is fine and covered in the policy. Routine live tracking of employee locations without their knowledge is a different situation and you should get employment law advice before implementing it.
+
+Most small businesses don't need it. If you're worried about engineers not being where they say they are, that's a management issue, not a technology issue.
+
+---
+
+## Passwords and Accounts
+
+**"Why can't I just use the same password I've always used?"**
+
+Because if any website you've ever used is breached (and many have been), that password is now known to criminals. They will try it on every other service associated with your email address — Xero, Tradify, your email, your banking.
+
+This attack (credential stuffing) is automated and runs constantly. It's not someone sitting at a keyboard guessing. It's software running through millions of combinations against millions of websites simultaneously.
+
+The fix: a different password for every account. A password manager makes this manageable — you don't have to remember them.
+
+---
+
+**"My password is really complicated with numbers and symbols. Isn't that enough?"**
+
+Complexity helps against brute force attacks (guessing every combination). It doesn't help against credential stuffing (using your actual stolen password). If the same complicated password is used on multiple sites, and one of those sites is breached, the complexity doesn't matter.
+
+The two things that actually matter: **unique** (not reused) and **long** (longer is harder to crack). A long, unique password generated by Bitwarden is better than a memorable-but-reused complicated one.
+
+---
+
+**"What's two-factor authentication and do I need it?"**
+
+Two-factor authentication (2FA) means proving your identity with something you know (password) AND something you have (your phone). Even if someone steals your password, they still can't log in without also having access to your phone.
+
+You absolutely need it on:
+- Your business email (number one priority)
+- Xero or whatever accounting software you use
+- Microsoft 365 admin account
+- Any system with customer payment details
+
+It takes 5 minutes to set up per account. It is one of the highest-value security measures you can implement. There is almost no excuse not to have it on email.
+
+---
+
+## Backups
+
+**"Tradify/Xero backs everything up automatically. Isn't that enough?"**
+
+It covers the most likely scenarios (hardware failure on the provider's side). It may not cover:
+
+- Accidental deletion with a short recovery window
+- Your account being compromised and data deleted by an attacker
+- You accidentally deleting everything yourself
+- The provider going out of business
+
+For most small businesses, knowing what your cloud providers actually back up and recover is the first step. The backup and recovery policy template in this kit walks you through the questions to ask.
+
+For business-critical data, having at least one additional copy (a periodic export) gives you a safety net.
+
+---
+
+**"We've never lost any data. Why worry about backups?"**
+
+You've been lucky. Or you've had small losses you recovered from without a formal process.
+
+The scenario that ends businesses isn't "one file got deleted." It's "everything was encrypted by ransomware and there are no clean backups." This happens to small businesses. The ones that survive are the ones with offline or separate backups that weren't affected.
+
+The backup and recovery policy exists to make sure that when (not if) something goes wrong, the damage is manageable.
+
+---
+
+## GDPR and Data Protection
+
+**"I thought GDPR was just for big companies."**
+
+No. GDPR applies to any business that processes personal data about EU or UK individuals — regardless of size. "Processing" includes storing, using, transmitting, or collecting personal data. Customer contact details, home addresses, email correspondence, and job site photos all count as personal data.
+
+The ICO's enforcement focus has been on larger organisations, but this isn't a permanent exemption for small businesses. The ICO can and does investigate small business complaints.
+
+More importantly, GDPR isn't primarily about fines — it's about treating customers' data with respect and being able to show you've taken reasonable steps to protect it.
+
+---
+
+**"A customer asked about our data security in a tender. What do I say?"**
+
+Be honest about where you are. Customers asking this question are usually looking for: do you have a documented policy? Do you use standard tools (encrypted devices, cloud-based software)? Do you know what GDPR requires?
+
+If you've implemented this kit, you can say:
+- We have a mobile device security policy covering all company phones
+- Customer data is stored in [Tradify/your CRM], not on personal devices
+- We use Microsoft 365 for email and documents, with two-factor authentication
+- We have a backup and recovery plan for business data
+- We're working toward Cyber Essentials certification
+
+That's a credible, honest answer for a small trades business. You're not claiming to be ISO 27001 certified — you're showing you take it seriously.
+
+---
+
+**"Can I just use a template for everything and call it done?"**
+
+Templates get you started. They don't count as "done" until:
+
+- You've read them and understood what they're saying
+- You've filled in the business-specific details
+- You've told your staff and they understand the requirements
+- You're actually doing what the policy says
+
+A policy document that no one has read, no one follows, and doesn't reflect how your business actually works is worse than useless. It creates a paper trail of what you should have been doing but weren't.
+
+The NorthWest Heating worked example in this kit exists to show what "actually implementing it" looks like — not just filling in a template.
+
+---
+
+## Hiring Help
+
+**"Should I get an IT company in to do all this?"**
+
+For the policies in this kit — not necessarily. The value of doing it yourself (with guidance) is that you understand what you've put in place and why. A policy written by an IT company that you can't explain to a customer or auditor is not much use.
+
+For technical implementation beyond this kit — particularly if you're going for Cyber Essentials Plus, implementing MDM software, or responding to a real security incident — yes, bring in help.
+
+See the `getting-help.md` document for a framework on when to DIY and when to hire.
+
+---
+
+**"How do I know if an IT company or security consultant is any good?"**
+
+Ask what certifications they hold. For general IT: look for Microsoft partnerships, CompTIA certifications. For security specifically: CISM, CISSP, or CREST accreditation. For Cyber Essentials help specifically: look for a certification body approved by IASME.
+
+Ask for references from businesses of a similar size to yours. A consultant who only works with enterprises may not give useful advice for an 8-person trades business.
+
+Ask them to explain things in plain English. If they can't explain what they're recommending and why, that's a warning sign.
+
+---
+
+*Part of the Small Business Information Security Starter Kit.*
