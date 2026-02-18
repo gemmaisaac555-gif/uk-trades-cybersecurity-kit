@@ -1,0 +1,273 @@
+# Recommended Tools
+### Specific Software and Services for Trades Businesses
+
+---
+
+> **How this list works:** Every tool here is one that could realistically be used by a small trades business (2–20 employees) in the UK. Each entry includes what it does, how much it costs, why it's recommended, and who it's best for. Tools are grouped by what problem they solve.
+
+> **No sponsorship or affiliation.** These recommendations are based on fitness for purpose for small UK trades businesses, not advertising relationships.
+
+---
+
+## Password Management
+
+### Bitwarden ⭐ Top Pick
+**What it does:** Stores all your passwords securely, generates strong unique passwords, and fills them in automatically when you log in.
+
+**Cost:** Free for individuals. £3/user/month for Teams (shared vaults, admin console).
+
+**Why recommended:**
+- Free tier is genuinely fully featured — no important features locked away
+- Open source — the code is publicly audited by security researchers
+- Works on Android, iPhone, Windows, Mac, and all major browsers
+- Better value than 1Password for small teams
+- The 2022 LastPass breach means LastPass is not recommended
+
+**Best for:** Everyone. Start with free individual accounts and upgrade to Teams if you need shared vaults.
+
+**How to get it:** bitwarden.com
+
+---
+
+### 1Password
+**What it does:** Same as Bitwarden — password management, secure storage.
+
+**Cost:** £2.99/month individual. £7.99/month for Teams (5 users). Custom pricing above that.
+
+**Why it might be preferred:** Slightly more polished interface than Bitwarden. Some people find it easier to set up for non-technical users.
+
+**Best for:** Teams where ease of use matters more than cost, or where someone already has a 1Password account.
+
+**How to get it:** 1password.com
+
+---
+
+## Two-Factor Authentication Apps
+
+### Microsoft Authenticator ⭐ Top Pick (Microsoft 365 users)
+**What it does:** Generates 6-digit codes for two-factor authentication. Integrates seamlessly with Microsoft 365.
+
+**Cost:** Free.
+
+**Why recommended:** If you use Microsoft 365 (Outlook, Teams, OneDrive), this is the natural choice. Number-matching feature makes it resistant to push notification attacks.
+
+**Best for:** Any business using Microsoft 365 — which should be the standard for UK small businesses.
+
+**How to get it:** Available on Google Play and Apple App Store.
+
+---
+
+### Google Authenticator
+**What it does:** Generates 6-digit 2FA codes. Works with almost everything.
+
+**Cost:** Free.
+
+**Why it might be used:** Simpler than Microsoft Authenticator. Works for accounts outside Microsoft 365.
+
+**Caveat:** Less recovery options than Microsoft Authenticator if you lose your phone.
+
+---
+
+## Antivirus / Endpoint Protection
+
+### Windows Defender (Built-in) ⭐ Top Pick for Windows
+**What it does:** Antivirus and malware protection built into Windows 10 and 11.
+
+**Cost:** Free — included with Windows.
+
+**Why recommended:** Microsoft Defender has reached near-parity with paid antivirus products in independent testing. For small businesses on Windows, it is now the recommended baseline. Paying for a third-party antivirus on top of Defender provides marginal additional protection.
+
+**Best for:** Any Windows computer — turn it on and keep it updated.
+
+**How to check it's on:** Windows Security → Virus & threat protection → should show "No action needed."
+
+---
+
+### Malwarebytes (Free or Premium)
+**What it does:** Malware scanning and removal. The free version is a good on-demand scanner. The paid version adds real-time protection.
+
+**Cost:** Free (on-demand). £30/year per device for Premium.
+
+**Why it might be used:** Good for a second-opinion scan if you suspect something is wrong. The free version is useful as a supplementary tool alongside Defender.
+
+**Best for:** Running a scan after a suspicious incident, or as a supplementary tool.
+
+**How to get it:** malwarebytes.com
+
+---
+
+## Email Security
+
+### Microsoft 365 Business Basic ⭐ Top Pick for email
+**What it does:** Business email (Outlook), Teams, OneDrive, SharePoint.
+
+**Cost:** £4.90/user/month (as of early 2025).
+
+**Why recommended:**
+- Email is on a proper business domain (you@yourcompany.co.uk, not yourcompany@gmail.com)
+- Includes Exchange Online email with anti-spam and anti-phishing filters
+- OneDrive for file storage
+- Teams for internal communication
+- Scales with your business
+- Government and large commercial customers expect a proper business email domain
+
+**Important:** Configure SPF, DKIM, and DMARC records on your domain after setting up. Ask your IT person or Microsoft's setup wizard will guide you.
+
+**Best for:** Any business that wants to look professional and needs business email.
+
+**How to get it:** microsoft.com/en-gb/microsoft-365/business
+
+---
+
+### Google Workspace Business Starter
+**What it does:** Gmail for business (yourname@yourcompany.co.uk), Google Drive, Meet, Docs.
+
+**Cost:** £4.60/user/month.
+
+**Why it might be used:** Some people prefer Google's tools, especially if already heavy Gmail users.
+
+**Trade-off:** Tradify and Xero integrate well with both Microsoft 365 and Google Workspace.
+
+---
+
+## Secure File Storage and Sharing
+
+### OneDrive for Business (included in Microsoft 365)
+**What it does:** Cloud file storage. Files sync between your computer and the cloud. Share files and folders with others.
+
+**Cost:** Included in all Microsoft 365 business plans.
+
+**Why recommended:** Already included if you have Microsoft 365. Version history (restore files from 30 days ago), works offline, integrates with Windows File Explorer.
+
+**Best for:** Document storage for any business using Microsoft 365.
+
+---
+
+### SharePoint (included in Microsoft 365 Business Basic and above)
+**What it does:** Team file sharing within your business. Like a shared network drive in the cloud.
+
+**Cost:** Included in Microsoft 365 Business Basic and above.
+
+**Why it's useful:** Gives a central shared folder that all staff can access — no need for emailing files around.
+
+---
+
+## Mobile Device Security
+
+### Find My Device (Android) — Built-in
+**What it does:** Locate, lock, or wipe a lost or stolen Android phone remotely.
+
+**Cost:** Free — built into Android.
+
+**How to enable:** Settings → Google → Find My Device → On. Or search "Find My Device" in settings.
+
+**Best for:** All Android work phones — should be enabled as a baseline requirement.
+
+---
+
+### Find My iPhone (iOS) — Built-in
+**What it does:** Same as Find My Device but for iPhones.
+
+**Cost:** Free — built into iOS.
+
+**How to enable:** Settings → [Your Name] → Find My → Find My iPhone → On.
+
+**Best for:** All iPhones used for work.
+
+---
+
+### Microsoft Intune (MDM — for larger teams or Cyber Essentials Plus)
+**What it does:** Centrally manage all mobile devices. Enforce screen lock policies, push updates, audit device compliance, remotely wipe devices.
+
+**Cost:** Included in Microsoft 365 Business Premium (£18.60/user/month). Also available as a standalone subscription.
+
+**When you'd need it:** When managing devices manually becomes unwieldy (typically 15+ devices), or when Cyber Essentials Plus certification requires demonstrable MDM.
+
+**Best for:** Growing businesses, or any business pursuing Cyber Essentials Plus.
+
+---
+
+## Backup and Recovery
+
+### OneDrive Automatic Sync (built into Microsoft 365)
+**What it does:** Automatically syncs files to the cloud. Version history lets you restore previous versions of files.
+
+**Cost:** Included in Microsoft 365.
+
+**Limitation:** If ransomware encrypts local files and syncs before you notice, the encrypted versions may overwrite clean ones. The recovery window is limited.
+
+**Best for:** Day-to-day protection against accidental deletion and hardware failure.
+
+---
+
+### Veeam Backup for Microsoft 365 (Free tier)
+**What it does:** Additional backup layer for Microsoft 365 email, OneDrive, and SharePoint. The free tier covers up to 10 users.
+
+**Cost:** Free (up to 10 users/1TB). Paid tiers for larger or managed backups.
+
+**Why it's useful:** Microsoft's own data retention policies have limits. Veeam gives you longer retention and easier restores.
+
+**Best for:** Businesses where email history is important to keep and Microsoft's standard retention isn't enough.
+
+**How to get it:** veeam.com/products/free/backup-microsoft-office-365.html
+
+---
+
+### External Hard Drive (for local backup)
+**What it does:** Physical backup of important files.
+
+**Cost:** £40–£100 for a 1–4TB portable drive (WD or Seagate recommended).
+
+**Why it's part of a good backup strategy:** Cloud backup + external drive = two different backup types. Store the drive offsite (at home or in a fireproof safe) for the best protection.
+
+**Best for:** Small businesses who want an offline backup that ransomware can't reach.
+
+---
+
+## Certification
+
+### Cyber Essentials (Self-Assessment)
+**What it does:** UK government-backed certification covering five basic security controls. Increasingly required for government and public sector contracts.
+
+**Cost:** £300 for the basic self-assessment certification.
+
+**Process:** Complete an online questionnaire about your security controls. Assessed by an accredited certification body.
+
+**Value:** Shows customers and procurement teams you've met a recognised standard. Opens doors to government contracts. Covers five areas — having this kit implemented gives you a head start on three of them.
+
+**How to apply:** iasme.co.uk/cyber-essentials (IASME is the main certification body for SMEs)
+
+---
+
+### Cyber Essentials Plus
+**What it does:** Same as Cyber Essentials but with an independent technical verification — someone actually tests your systems.
+
+**Cost:** £500–£2,000 depending on organisation size and assessor.
+
+**When you'd need it:** Required for some higher-value government contracts. A stronger signal of genuine security.
+
+---
+
+## Useful Free Resources
+
+| Resource | What It Covers | URL |
+|---|---|---|
+| NCSC Small Business Guide | Practical security basics | ncsc.gov.uk/collection/small-business-guide |
+| NCSC Cyber Aware | Password and account security | cyberaware.gov.uk |
+| ICO SME Hub | GDPR guidance for small businesses | ico.org.uk/for-organisations/sme-web-hub |
+| Have I Been Pwned | Check if your email has been in a breach | haveibeenpwned.com |
+| NCSC Exercise in a Box | Free cyberattack simulation exercises | ncsc.gov.uk/information/exercise-in-a-box |
+
+---
+
+## Tools Not Recommended (and Why)
+
+**LastPass:** Suffered a significant breach in 2022 where encrypted password vaults were stolen. While the encryption means direct access to passwords requires cracking the master password, the breach fundamentally undermined trust. Bitwarden or 1Password are better choices.
+
+**Free VPNs:** Many free VPN services log your traffic and sell the data — the opposite of what you want. If you need a VPN (for working on public WiFi), use a paid reputable service (Mullvad, ProtonVPN) or just use mobile data instead, which is simpler.
+
+**"All-in-one security suites" from unfamiliar vendors:** Products that promise antivirus + VPN + identity protection + dark web monitoring + backup in one cheap package often do all of these poorly. Use dedicated tools for each purpose.
+
+---
+
+*Part of the Small Business Information Security Starter Kit. Tool pricing and availability correct as of early 2025. Check current pricing directly with providers.*
