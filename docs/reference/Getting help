@@ -1,0 +1,153 @@
+# Getting Help
+### When to DIY, When to Hire, and How to Find the Right Person
+
+---
+
+> This guide helps you decide when you can handle security yourself, when you need outside help, and how to find a consultant who won't oversell you.
+
+---
+
+## The Core Question
+
+Most small businesses either:
+- Do nothing, because they think they can't afford professional help
+- Spend money on help they didn't need, because a salesperson scared them
+
+The reality: most of what's in this kit you can do yourself. Some things genuinely require a professional. Knowing which is which saves time and money.
+
+---
+
+## What You Can DIY
+
+These things are within the reach of any small business owner or office manager with a few hours and this kit:
+
+**Policy writing and documentation**
+If you can read this guide, you can write a mobile device policy. The NorthWest Heating example shows what it looks like when a real business does it. A policy written by you, in your language, about your specific systems, is more effective than a policy written by a consultant who spent 20 minutes on it.
+
+**Password manager setup (Bitwarden)**
+Free, well-documented, and works on all devices. The setup process takes an afternoon. Sarah from NorthWest Heating did it for 8 people with no IT background.
+
+**Two-factor authentication setup**
+On Microsoft 365, this is a few clicks in the admin console. Microsoft's setup wizard walks you through it. If you get stuck, Microsoft has phone support for 365 subscribers.
+
+**Screen locks and Find My Device setup**
+5 minutes per phone. Built into every modern phone. No expertise required.
+
+**Backup review**
+Checking what your cloud software providers back up and how to restore it requires reading their help documentation, not a consultant.
+
+**GDPR basics**
+The ICO's SME Hub (ico.org.uk/for-organisations/sme-web-hub) is written for non-specialists. A simple privacy notice, data retention policy, and breach response checklist can be written in-house.
+
+**Cyber Essentials self-assessment**
+The basic Cyber Essentials questionnaire is designed to be completed by a non-technical business owner. The IASME website has worked examples and guidance. If you've implemented this kit, you're partway there already.
+
+---
+
+## When You Should Get Help
+
+These situations justify bringing in outside expertise:
+
+**After a security incident**
+If you've been hit by ransomware, had an account compromised, or suspect a breach — stop and get help. Acting in the wrong order (trying to fix it yourself, continuing to use compromised systems) can make things worse and destroy forensic evidence.
+
+Who to call: A managed service provider or incident response firm. The NCSC incident reporting form (report.ncsc.gov.uk) is a starting point. If customer data was involved, your insurance policy (if you have cyber insurance) may cover incident response costs.
+
+**Cyber Essentials Plus**
+The Plus certification involves an independent technical assessment of your systems. This is done by an IASME-accredited assessor — you can't do it yourself. The assessor will probe your systems, so preparation with a consultant beforehand is often worth it.
+
+**Microsoft 365 configuration (email security, SPF/DKIM/DMARC)**
+Setting up email authentication records (SPF, DKIM, DMARC) requires access to your domain's DNS settings and knowledge of what you're configuring. Getting it wrong can break your email. A one-off IT support appointment (1–2 hours) from an IT company familiar with Microsoft 365 is the right approach.
+
+**Mobile Device Management (MDM) implementation**
+If you grow to a size where managing phones manually stops working and you want to implement Microsoft Intune or similar, this is a legitimate IT project. It touches every device and can cause disruption if done wrong. Getting an IT company to set it up properly is worth it.
+
+**Employment and data protection law questions**
+If you're not sure whether your monitoring policy is legal, whether you need employee consent for something, or how to respond to a subject access request — get a solicitor who specialises in employment or data protection law. The ICO's guidance is good but can't substitute for advice on your specific situation.
+
+**When you've run out of time**
+Paying an IT company to implement what's in this kit is a legitimate choice if your time is genuinely worth more than the cost. The value of doing it yourself is understanding it — but if you're going to ignore the kit completely otherwise, paying someone to do it properly is better than nothing.
+
+---
+
+## Red Flags When Hiring
+
+Security is an industry with a lot of salespeople who are better at scaring you than helping you. Watch out for:
+
+**Fear-based selling without specifics**
+"You need our advanced threat protection — you have no idea what's out there." If they can't tell you specifically what threat they're protecting you from, and why their solution is proportionate to your actual risk, be sceptical.
+
+**Everything bundled together**
+A managed security package that bundles antivirus, email scanning, VPN, 24/7 monitoring, and compliance reporting for £200/month may sound comprehensive. Ask what you actually need from that list and what the price is if you only buy that.
+
+**Discouraging you from understanding what you're buying**
+A good IT consultant explains what they're doing and why. If someone seems uncomfortable when you ask questions, or makes you feel stupid for asking, find someone else.
+
+**No references from comparable businesses**
+An IT company that works primarily with 100-person professional services firms may not be the right fit for a 10-person trades business. Ask for references from businesses of a similar size and type.
+
+**Overselling Cyber Essentials Plus before the basics are in place**
+Cyber Essentials Plus is valuable. It is not the right starting point if you don't have basic screen locks and two-factor authentication yet. Do the basics first.
+
+---
+
+## What Good Help Looks Like
+
+A good IT consultant or managed service provider for a small trades business will:
+
+- Ask about your specific systems before recommending anything
+- Explain what they're recommending in plain English and why
+- Scope work clearly with a fixed price or clear hourly rate
+- Leave you with documentation you understand
+- Not require ongoing dependency on them for things you could manage yourself
+
+**Typical rates (UK, 2024–2025):**
+- Freelance IT support: £50–£100/hour
+- Small managed service provider: £50–£150/user/month (includes all IT support)
+- Security consultant (GRC/policy): £500–£1,500/day
+- Cyber Essentials Plus assessment: £500–£2,000 depending on size and assessor
+
+---
+
+## How to Find the Right Person
+
+**For general IT support (Microsoft 365, email setup, device management):**
+- Ask other local businesses in your trade who they use
+- Search for Microsoft Partners in your area — microsoft.com/en-gb/solution-providers
+- Check if your trade association has preferred suppliers
+
+**For Cyber Essentials certification:**
+- Find an IASME-accredited certification body: iasme.co.uk/cyber-essentials/certificationbodies
+- IASME is the main body for SME certification in the UK — use their list
+
+**For GDPR / data protection questions:**
+- The ICO's SME Hub covers most practical questions for free
+- For specific legal advice: search for solicitors specialising in data protection law
+- The Law Society has a finder: lawsociety.org.uk/find-a-solicitor
+
+**For incident response (if you've been breached):**
+- Your cyber insurance policy (if you have one) — call the insurer first
+- The NCSC has a list of certified incident response companies: ncsc.gov.uk/information/about-cyber-incident-response
+- CREST-accredited firms are the standard for incident response: crest-approved.org
+
+---
+
+## A Realistic Budget Framework
+
+If you're planning to invest in security this year, here's how to think about prioritisation:
+
+| Priority | What it covers | Approximate cost |
+|---|---|---|
+| **1. Free fundamentals** | Bitwarden, MFA on 365, Find My Device, screen locks | £0 + a few hours |
+| **2. Proper email** | Microsoft 365 Business Basic if not already on it | ~£5/user/month |
+| **3. Email authentication** | One-off IT appointment for SPF/DKIM/DMARC | £100–£200 |
+| **4. Cyber Essentials** | Self-assessment certification | £300 |
+| **5. Proper backups** | Veeam free tier + external drive | £0–£80 |
+| **6. Cyber Essentials Plus** | When actively needed for contracts | £500–£2,000 |
+| **7. MDM** | When team grows or Plus requires it | Varies |
+
+Most small trades businesses should be able to get through the first four items with under £500 and less than two working days. That covers the fundamentals and gets you a recognised certification.
+
+---
+
+*Part of the Small Business Information Security Starter Kit.*
