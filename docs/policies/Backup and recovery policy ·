@@ -1,0 +1,251 @@
+# Backup and Recovery Policy
+### Small Business Information Security Starter Kit
+
+---
+
+> **Before you use this template:** This is a starting point, not a finished document. Read through it, delete anything that doesn't apply to your business, fill in the highlighted sections [IN BRACKETS], and write it in your own words where it makes sense to do so. A policy that sounds like you will get followed. A policy that sounds like a solicitor probably won't.
+
+---
+
+## Document Control
+
+| Field | Value |
+|---|---|
+| Document Owner | [Name and role — the person responsible for backups] |
+| Approved By | [Director/Owner name] |
+| Approved Date | [Date] |
+| Review Date | [One year from approval date] |
+| Version | 1.0 |
+
+---
+
+## 1. Purpose
+
+This policy explains how [Business Name] protects its business data by making regular copies (backups) of important information, and how we would recover that information if something went wrong — such as ransomware, accidental deletion, a hardware failure, or a fire.
+
+The goal is simple: if we lose access to our data today, how quickly can we get back to working normally, and what would we lose?
+
+---
+
+## 2. Why This Matters
+
+Consider what would happen if you lost access to everything tomorrow:
+
+- Customer contact details and job history
+- Invoices, quotes, and financial records
+- Supplier contacts and purchase history
+- Email history
+- Any documents, certificates, or insurance records stored digitally
+
+Without backups, some or all of this could be gone permanently. With good backups, recovery is frustrating but manageable.
+
+Under GDPR, we also have a responsibility to protect customer data. Losing it through preventable means (no backups, no recovery plan) is a compliance failure, not just a business inconvenience.
+
+---
+
+## 3. Scope
+
+This policy covers:
+
+- All customer data (contact details, job records, quotes, invoices)
+- Financial records (accounting data, invoices, bank records)
+- Business email
+- Documents and files used in day-to-day operations
+- Any software configuration that would take significant time to rebuild
+
+This policy applies to:
+
+- [List the systems you use — e.g. Tradify, Xero, Microsoft 365, QuickBooks, shared drives, local computers, etc.]
+- [All employees who manage or access business data]
+
+---
+
+## 4. What We Back Up and How
+
+### 4.1 Cloud Software (SaaS Applications)
+
+Most modern business software handles backup automatically. The key is knowing what your provider does — and whether it covers the scenarios you're worried about.
+
+| System | What's at risk | Provider backup | What we do additionally |
+|---|---|---|---|
+| [e.g. Tradify] | Job records, customer data, photos | [Yes/No — check provider] | [e.g. Monthly export to CSV saved to OneDrive] |
+| [e.g. Xero] | Financial records, invoices | [Yes — Xero maintains backups] | [e.g. Quarterly export of accounts data] |
+| [e.g. Microsoft 365] | Email, OneDrive files, Teams] | [Yes — but recycle bin has limits] | [e.g. Export critical emails annually] |
+| [Any other systems] | | | |
+
+**Important:** Cloud provider backups protect against hardware failures on their side. They may NOT protect you against:
+- Accidental deletion (some have short recovery windows — check)
+- Ransomware that syncs encrypted files to the cloud
+- Account being compromised and data deleted maliciously
+- Provider going out of business
+
+Check your key providers' backup and recovery terms. Know the answers to: how long do they keep deleted data? Can you restore a specific file from 30 days ago?
+
+---
+
+### 4.2 Local Files and Documents
+
+If you have important files stored locally on computers (not in cloud storage), these need separate backup arrangements.
+
+**What we back up locally:**
+[List any local files that aren't automatically in the cloud — e.g. "Quotes folder on office PC", "Scanned certificates in Documents folder"]
+
+**How we back these up:**
+[Choose and describe your approach — examples below]
+
+**Option A — External hard drive:**
+> We back up the [folder names] on [computer name] to an external hard drive every [weekly/monthly]. The hard drive is stored [offsite location — e.g. "at James's home" or "in a fireproof safe"] when not in use. [Name] is responsible for running the backup.
+
+**Option B — Automatic cloud sync:**
+> All important documents are stored in [OneDrive/Google Drive/Dropbox], which automatically syncs to the cloud. We verify the sync is working on the first Monday of each month.
+
+**Option C — Both:**
+> Critical files are in OneDrive (automatic sync) and we also run a monthly backup to an external drive as a second copy.
+
+---
+
+### 4.3 The 3-2-1 Rule (Aim For This)
+
+A useful target for backup coverage:
+- **3** copies of important data
+- **2** different storage types (e.g. cloud + external drive)
+- **1** copy stored offsite (not in the same building as the others)
+
+Not every small business needs this level of redundancy for every file. Apply it to your most critical data — the stuff where losing it would seriously damage the business.
+
+---
+
+## 5. How Often We Back Up
+
+| Data Type | Backup Frequency | Who Is Responsible |
+|---|---|---|
+| Cloud software data (Tradify, Xero, etc.) | Continuous / automatic | [Provider handles — we verify quarterly] |
+| Local documents and files | [Weekly/Monthly] | [Name] |
+| Email | [Continuous via Microsoft 365] | [Provider handles] |
+| Specific exports for offline storage | [Monthly/Quarterly] | [Name] |
+
+---
+
+## 6. Recovery — What Happens If Something Goes Wrong
+
+### 6.1 Scenarios and Responses
+
+**Scenario: Accidental deletion (one file or folder)**
+
+1. Check recycle bin / recently deleted folder in the relevant system
+2. If not there, check if the software has a version history (OneDrive, Google Drive, and most cloud software do)
+3. If still not there, contact [Name] who will check backup copies
+4. If the file doesn't exist in backups: assess the impact and recreate if necessary
+
+**Scenario: Ransomware (files encrypted, ransom demanded)**
+
+1. Do NOT pay the ransom
+2. Disconnect the affected device from the internet and any network immediately
+3. Contact [IT support contact / James / whoever handles this]
+4. Do NOT attempt to decrypt files yourself
+5. Assess what backups are available and whether they're unaffected
+6. Report to the National Cyber Security Centre: report.ncsc.gov.uk
+7. If customer data is affected, this is likely a reportable data breach — see GDPR guidance
+8. Restore from clean backup once the infection has been removed
+
+*Key question: are your backup copies accessible from the infected device? If your backup is a mapped network drive or a synced cloud folder, ransomware may have encrypted those too. Know your answer to this before an incident.*
+
+**Scenario: Hardware failure (computer stops working)**
+
+1. Replace or repair the hardware
+2. Restore files from backup / re-access cloud software on new device
+3. If cloud software is used for key systems (Tradify, Xero, email), a hardware failure should not cause data loss — just downtime while setting up a replacement
+
+**Scenario: Accidental account deletion or data wipe**
+
+1. Contact the software provider's support immediately — most have a recovery window
+2. Check if an export backup exists
+3. If data is unrecoverable, assess impact and notify affected customers if required under GDPR
+
+---
+
+### 6.2 Recovery Time Targets
+
+These are targets, not guarantees. The point is to think about what's acceptable before an incident, not after.
+
+| System | Maximum Acceptable Downtime | Notes |
+|---|---|---|
+| Customer job records (Tradify) | [e.g. 24 hours] | Engineers can work from paper/memory for one day |
+| Financial records (Xero) | [e.g. 48 hours] | Invoicing can pause briefly |
+| Email | [e.g. 4 hours] | Critical for customer communication |
+| Local documents | [e.g. 72 hours] | Less time-critical |
+
+---
+
+## 7. Testing Backups
+
+A backup that's never been tested is a backup you don't actually have.
+
+**What we test:**
+- Can we access our backup copies?
+- Can we restore a specific file?
+- Do the backups contain what we expect?
+
+**How often we test:**
+[At minimum: once a year. Better: every 6 months. For critical data: quarterly.]
+
+**Our testing schedule:** [Name] will test backup recovery on [month] each year by:
+1. Attempting to restore a specific test file from each backup source
+2. Checking the date of the most recent backup copy
+3. Noting any failures and addressing them
+
+**Record of last test:** [Date / Pass / Fail / Notes]
+
+---
+
+## 8. Responsibilities
+
+| Role | Responsibility |
+|---|---|
+| [Director/Owner] | Approves policy, ensures resources are available, reviews after incidents |
+| [Office Admin / Named Person] | Runs manual backups, performs monthly checks, contacts providers if issues arise |
+| All staff | Report any suspected data loss or suspicious activity immediately |
+
+---
+
+## 9. Key Contacts and Information
+
+| Contact | Details |
+|---|---|
+| [Software provider 1 — e.g. Tradify] support | [Support email / phone / help URL] |
+| [Software provider 2 — e.g. Xero] support | [Support email / phone / help URL] |
+| Microsoft 365 support | admin.microsoft.com → Support |
+| NCSC incident reporting | report.ncsc.gov.uk |
+| ICO (data breach reporting) | ico.org.uk/make-a-complaint — report within 72 hours if customer data affected |
+| Our IT support (if applicable) | [Contact name and number, or "None — handle in-house"] |
+
+---
+
+## 10. Policy Review
+
+This policy will be reviewed:
+
+- Annually (same time as other security policies)
+- After any data loss incident or near-miss
+- If we change key software systems
+- If our data volume or type changes significantly
+
+---
+
+## Glossary of Terms Used in This Policy
+
+**Backup:** A copy of data stored separately from the original, so if the original is lost or damaged, the copy can be used to restore it.
+
+**Ransomware:** A type of malicious software that encrypts your files and demands payment to unlock them. Even if you pay, there is no guarantee you'll get your data back.
+
+**Cloud software:** Software you access through a web browser or app, where data is stored on the provider's servers rather than your own computer (e.g. Xero, Tradify, Microsoft 365).
+
+**Recovery:** The process of restoring data from a backup after it has been lost or damaged.
+
+**3-2-1 rule:** A backup strategy: 3 copies of data, on 2 different types of storage, with 1 copy stored offsite.
+
+**Data breach:** When personal data is accessed, lost, or stolen without authorisation. Under GDPR, serious breaches must be reported to the ICO within 72 hours.
+
+---
+
+*This template is part of the Small Business Information Security Starter Kit. It is provided as a starting point and does not constitute legal advice. Seek professional guidance if you need advice specific to your business circumstances.*
