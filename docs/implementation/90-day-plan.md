@@ -1,574 +1,655 @@
-# Acceptable Use Policy
+# 90-Day Security Implementation Plan
 
-**Rules for using company IT systems and equipment**
-
----
-
-## 📱 Plain English Explanation
-
-### What This Policy Covers
-
-This policy explains what you can and can't do with company IT equipment and systems - computers, phones, email, internet, software, and any other company technology.
-
-### Why You Need This
-
-**Legal protection:** If an employee does something illegal on company equipment, you need to show you had clear rules
-
-**Productivity:** Prevents excessive personal use during work hours
-
-**Security:** Stops risky behavior that could compromise systems
-
-**Customer trust:** Shows you take appropriate use of systems seriously
-
-### What It Means in Practice
-
-**You CAN:**
-- Use company phone for personal calls during breaks
-- Check personal email occasionally
-- Use internet for reasonable personal browsing (news, weather, shopping)
-- Listen to music/podcasts while working
-
-**You CANNOT:**
-- Download pirated software or media
-- Visit illegal or inappropriate websites
-- Use company systems for personal business ventures
-- Harass colleagues via email or messaging
-- Waste excessive work time on personal activities
-
-**It's common sense, documented.**
-
-### Framework Alignment
-
-- ✅ **Cyber Essentials:** Secure configuration and access control
-- ✅ **GDPR:** Appropriate data handling
-- ✅ **Employment Law:** Clear expectations for staff
+**Build mature security after completing the 30-Day Quick Start**
 
 ---
 
-## 📄 Policy Template
+## 🎯 Overview
+
+This plan builds on the [30-Day Quick Start](30-day-quick-start.md). By the end of 90 days, you'll have:
+- Cyber Essentials certification ready
+- Comprehensive policy documentation
+- Regular security processes
+- Training program established
+- Incident response capability
+- Risk assessment completed
+
+**Prerequisites:** Complete the 30-Day Quick Start first
+
+**Time investment:** 3-5 hours per week
 
 ---
 
-### Acceptable Use Policy
+## 📅 Month 2: Build on Foundations (Days 31-60)
 
-**Document Owner:** [Director/Office Manager]  
-**Approved By:** [Director Name]  
-**Approved Date:** [Date]  
-**Review Date:** [Annual review date]  
-**Version:** 1.0
+### Week 5: Complete Policy Suite
 
----
+**Goal:** Document all remaining security policies
 
-### 1. Purpose
+**Time needed:** 4-5 hours
 
-This policy defines acceptable and unacceptable use of [COMPANY NAME]'s IT systems, equipment, and resources to protect the business, employees, and customers.
+#### Monday-Wednesday: Core Policies
+**Create/customize:**
+- [ ] [Data Protection Policy](../policies/data-protection-policy.md)
+- [ ] [Acceptable Use Policy](../policies/acceptable-use-policy.md)
+- [ ] [Incident Response Policy](../policies/incident-response-policy.md)
 
----
+**How to do it:**
+1. Use templates from this kit
+2. Replace [COMPANY NAME] placeholders
+3. Adjust for your specific situation
+4. Keep language simple and practical
+5. Save in OneDrive > Company Policies
 
-### 2. Scope
+**Don't:**
+- Spend hours perfecting wording
+- Create policies you won't actually follow
+- Copy-paste without reading
 
-This policy applies to:
-- All company-owned devices (computers, phones, tablets)
-- Company email and communications systems
-- Internet and network access
-- Software and applications
-- Cloud storage and file sharing
-- Personal devices used for work (if applicable)
-- All employees, contractors, and temporary staff
+**Do:**
+- Make them realistic for your business
+- Focus on what you actually do
+- Get someone else to read them (fresh eyes)
 
----
+#### Thursday-Friday: Policy Package
+**Organize documentation:**
+- [ ] Create master list of all policies
+- [ ] Put all policies in one folder
+- [ ] Create quick reference guide (1-page summary)
+- [ ] Version control (date each policy)
+- [ ] Share location with all staff
 
-### 3. General Principles
-
-### 3.1 Professional Standards
-Company IT resources are provided primarily for business purposes. Reasonable personal use is permitted but must not:
-- Interfere with work duties
-- Consume excessive time or bandwidth
-- Violate any law or regulation
-- Violate any other company policy
-- Damage company reputation
-- Compromise security
-
-### 3.2 Personal Responsibility
-You are responsible for:
-- All activity on your accounts
-- Keeping passwords secure
-- Using systems appropriately
-- Reporting misuse or security concerns
-- Understanding this policy
-
-### 3.3 No Expectation of Privacy
-**Important:** Company systems are for business purposes. We reserve the right to:
-- Monitor internet usage
-- Review email and communications
-- Access files stored on company systems
-- Audit system logs for security purposes
-
-We don't routinely monitor personal communications, but we can if there's a business reason or security concern.
+**Outcome:** Complete policy suite, properly organized
 
 ---
 
-### 4. Acceptable Use
+### Week 6: Risk Assessment
 
-### 4.1 Email and Communications
+**Goal:** Understand and document your security risks
 
-**Acceptable:**
-- ✅ Business correspondence with customers, suppliers, colleagues
-- ✅ Job scheduling and coordination
-- ✅ Invoicing and payment communications
-- ✅ Occasional personal emails (during breaks)
-- ✅ Professional tone in all business communications
+**Time needed:** 3-4 hours
 
-**Best Practices:**
-- Use clear subject lines
-- Reply within reasonable timeframe (1-2 business days)
-- Proofread before sending (especially to customers)
-- Use "Reply All" carefully
-- Be professional even when frustrated
+#### Monday-Tuesday: Identify Risks
+**Use the [Risk Assessment Template](risk-assessment-template.md)**
 
-### 4.2 Internet Use
+**Steps:**
+1. List all assets (systems, data, devices)
+2. Identify threats to each asset
+3. Rate likelihood (1-5)
+4. Rate impact (1-5)
+5. Calculate risk scores
+6. Prioritize top 10 risks
 
-**Acceptable:**
-- ✅ Work-related research and information
-- ✅ Accessing business systems and cloud services
-- ✅ Reasonable personal browsing (news, weather, shopping) during breaks
-- ✅ Online banking during lunch break
-- ✅ Booking appointments during breaks
+**Common risks for trades businesses:**
+- Lost phones with customer data (High)
+- Email compromise (Medium-High)
+- Ransomware (Medium)
+- Invoice fraud (Medium)
+- Backup failure (Medium)
+- Unauthorized access after employee leaves (Low-Medium)
 
-**Use Good Judgment:**
-- Keep personal use to breaks/lunch when possible
-- Don't let personal browsing interfere with work
-- Be aware that browsing history can be reviewed if needed
+#### Wednesday-Thursday: Document Controls
+**For each high/medium risk:**
+- [ ] What controls do you already have?
+- [ ] What additional controls needed?
+- [ ] Who's responsible?
+- [ ] Target completion date?
 
-### 4.3 Company Phones
+#### Friday: Risk Register
+**Create simple risk register:**
+- Spreadsheet or use template provided
+- List top 10 risks
+- Current controls
+- Additional actions needed
+- Review date (quarterly)
 
-**Acceptable:**
-- ✅ Work calls and texts
-- ✅ Personal calls and texts (within reason)
-- ✅ Work-related apps (Tradify, email, etc.)
-- ✅ Personal apps (music, maps, etc.)
-- ✅ Photos of work sites and installations
-- ✅ Reasonable data usage for personal use
-
-**Guidelines:**
-- Don't make excessive personal calls during work hours
-- Don't run up huge bills on personal use
-- Remember customer data on the phone - keep it secure
-- Upload work photos to Tradify, delete from phone after
-
-### 4.4 Software and Applications
-
-**Acceptable:**
-- ✅ Company-approved software for work tasks
-- ✅ Updates to existing approved software
-- ✅ Reasonable personal apps on company phones (games, etc.)
-- ✅ Browser extensions that don't pose security risks
-
-**Requires Approval:**
-- New software installations on computers
-- Paid applications or subscriptions
-- Software that requires admin rights
-- Anything that connects to company data
-
-### 4.5 Data Storage and File Sharing
-
-**Acceptable:**
-- ✅ Storing work files on OneDrive/approved cloud storage
-- ✅ Sharing files with colleagues via approved methods
-- ✅ Backing up work to company systems
-- ✅ Organizing files in clear folder structures
-
-**Guidelines:**
-- Don't store company data on personal Dropbox/Google Drive
-- Don't email customer data to personal accounts
-- Use OneDrive for company files, not your personal cloud
-- Delete old files you no longer need
-
-### 4.6 Social Media
-
-**Personal Social Media (On Your Own Time):**
-- You can use personal social media on breaks/lunch
-- Be aware you represent the company
-- Don't post confidential company information
-- Don't post about customers without permission
-- Don't harass colleagues or customers online
-
-**Company Social Media (If You Manage It):**
-- Follow company guidelines for posts
-- Be professional and respectful
-- Don't share customer information
-- Get approval for major announcements
-- Respond to messages promptly
+**Outcome:** Risk assessment completed, action plan created
 
 ---
 
-### 5. Unacceptable Use
+### Week 7: Incident Response Preparation
 
-### 5.1 Strictly Prohibited Activities
+**Goal:** Be ready to handle security incidents
 
-**Illegal Activity:**
-❌ Accessing, downloading, or distributing illegal content  
-❌ Copyright infringement (pirated software, movies, music)  
-❌ Hacking or attempting to bypass security  
-❌ Fraud or identity theft  
-❌ Cyberbullying or harassment  
-❌ Any criminal activity  
+**Time needed:** 2-3 hours
 
-**Inappropriate Content:**
-❌ Pornography or sexually explicit material  
-❌ Violent or extremist content  
-❌ Hate speech or discriminatory material  
-❌ Gambling sites (during work hours)  
+#### Monday-Tuesday: Incident Response Setup
+**Prepare for incidents:**
+- [ ] Test remote wipe on spare device
+- [ ] Create incident log template
+- [ ] Document emergency contacts
+- [ ] Print quick reference cards for staff
+- [ ] Set up incident reporting email/number
 
-**Security Risks:**
-❌ Installing unauthorized software  
-❌ Disabling security features (antivirus, firewall)  
-❌ Sharing passwords or accounts  
-❌ Clicking suspicious links or attachments  
-❌ Connecting unauthorized devices to network  
-❌ Using company systems for personal business ventures  
+**Test scenarios:**
+- What if engineer's phone is stolen?
+- What if you receive suspicious email?
+- What if customer reports data breach?
+- What if ransomware hits?
 
-**Misuse of Resources:**
-❌ Excessive personal use during work hours  
-❌ Streaming videos excessively (slows network)  
-❌ Cryptocurrency mining  
-❌ Running personal businesses on company time/equipment  
-❌ Sending spam or chain emails  
+#### Wednesday: Tabletop Exercise
+**Run through scenario with team (30 minutes):**
 
-**Breach of Trust:**
-❌ Accessing colleagues' accounts or files without permission  
-❌ Sharing customer data inappropriately  
-❌ Using company information for personal gain  
-❌ Deliberately damaging systems or data  
+**Scenario:** "Dave's company phone was stolen from his van during lunch"
 
-### 5.2 Prohibited Communications
+**Walk through:**
+1. Who does Dave call?
+2. What happens next?
+3. How do we protect customer data?
+4. When do we notify customers?
+5. How do we get Dave working again?
 
-**Don't send or post:**
-❌ Offensive, discriminatory, or harassing content  
-❌ Confidential business information publicly  
-❌ Customer information without permission  
-❌ False or misleading information about the company  
-❌ Threats or intimidation  
-❌ Trade secrets or proprietary information  
+**Document:**
+- What went well
+- What wasn't clear
+- What needs fixing
+
+#### Thursday-Friday: Refine Procedures
+**Based on tabletop exercise:**
+- [ ] Update incident response procedures
+- [ ] Clarify any confusion
+- [ ] Add missing steps
+- [ ] Update emergency contacts
+
+**Outcome:** Incident response procedures tested and ready
 
 ---
 
-### 6. Specific Guidelines
+### Week 8: Third-Party and Vendor Management
 
-### 6.1 Working From Home (If Applicable)
+**Goal:** Ensure suppliers handle data securely
 
-**When working remotely:**
-- Use company VPN if required
-- Don't let family use company equipment
-- Keep work and personal use separate
-- Secure home network (strong WiFi password)
-- Report any security concerns immediately
+**Time needed:** 2-3 hours
 
-### 6.2 Public WiFi
+#### Monday-Tuesday: Vendor Inventory
+**List all third parties who access your data:**
 
-**Using public WiFi (cafes, hotels, etc.):**
-- Avoid for sensitive work (banking, customer data)
-- Use mobile data for sensitive tasks if possible
-- Don't access financial systems on public WiFi
-- Use VPN if available
-- Ensure screen isn't visible to others
+**Software vendors:**
+- [ ] Xero / accounting software
+- [ ] Tradify / job management
+- [ ] Microsoft 365 / email
+- [ ] Cloud storage
+- [ ] Payment processors
 
-### 6.3 Bring Your Own Device (BYOD)
+**Service providers:**
+- [ ] Accountant
+- [ ] Payroll provider
+- [ ] IT support (if external)
+- [ ] Website host
 
-**If using personal device for work:**
-- Must meet security requirements (see Mobile Device Policy)
-- Work apps can be managed by company
-- Personal data remains private
-- Must allow work data to be wiped if device lost
-- Can stop using for work at any time
+**Subcontractors:**
+- [ ] Anyone you share customer details with
 
-### 6.4 Leaving Devices Unattended
+#### Wednesday: Vendor Security Check
+**For each vendor, verify:**
+- [ ] Do they have privacy policy / GDPR compliance?
+- [ ] Where do they store data (UK/EU/elsewhere)?
+- [ ] How do they protect data?
+- [ ] Do they have security certifications?
 
-**When leaving devices unattended:**
-- Lock screen (Win+L on Windows, Ctrl+Cmd+Q on Mac)
-- Don't leave laptop in car (especially visible)
-- Don't leave phone on customer's counter
-- Log out of systems at end of day
-- Take phone home (don't leave in office overnight)
+**For major vendors (Xero, Microsoft):** Check their website, they'll have compliance info
 
-### 6.5 Disposing of Equipment
+**For subcontractors:** Add data protection clause to contracts
 
-**When equipment reaches end of life:**
-- Return to office (don't throw away at home)
-- Don't keep old company phones
-- We'll securely wipe all data
-- Recycling/disposal handled properly
-- Never sell or give away company equipment
+#### Thursday-Friday: Document and Update
+**Create vendor list:**
+- Vendor name
+- What data they access
+- GDPR compliance confirmed
+- Contract review date
+- Contact details
 
----
+**Update contracts:**
+- [ ] Add data protection clause to subcontractor agreements
+- [ ] Template: "Subcontractor must handle personal data in accordance with UK GDPR"
 
-### 7. Monitoring and Enforcement
-
-### 7.1 Company's Right to Monitor
-
-We may monitor:
-- Email content and attachments (for security/compliance)
-- Internet browsing history
-- Data stored on company systems
-- System access logs
-- Network traffic
-
-**We don't routinely read personal emails, but we can if needed for security or legal reasons.**
-
-### 7.2 When We Monitor
-
-Monitoring may occur when:
-- Security incident suspected
-- Performance concerns raised
-- Legal obligation to investigate
-- System troubleshooting required
-- Random security audits
-
-You'll usually be informed of monitoring unless it would compromise an investigation.
-
-### 7.3 What We Look For
-
-**Red flags that trigger review:**
-- Large downloads from unknown sources
-- Access to inappropriate sites
-- Suspicious email patterns
-- Excessive personal use during work hours
-- Security policy violations
+**Outcome:** Vendor security documented and verified
 
 ---
 
-### 8. Violations and Consequences
+## 📅 Month 3: Certification and Maturity (Days 61-90)
 
-### 8.1 Reporting Violations
+### Week 9: Cyber Essentials Preparation
 
-**If you witness policy violations:**
-- Report to [Manager/Director]
-- Email: [SECURITY EMAIL]
-- Phone: [NUMBER]
-- Can be anonymous if preferred
+**Goal:** Ready to apply for Cyber Essentials
 
-**If you've accidentally violated the policy:**
-- Report it immediately
-- Honest mistakes are treated differently than deliberate violations
-- We'd rather you tell us than hide it
+**Time needed:** 4-6 hours
 
-### 8.2 Investigation Process
+#### Monday-Tuesday: Gap Analysis
+**Use [Cyber Essentials Checklist](../checklists/cyber-essentials-checklist.md)**
 
-**When violation reported:**
-1. Incident logged and assessed
-2. Investigation conducted (may include system review)
-3. Employee given opportunity to respond
-4. Decision made based on severity and intent
+**Work through all 5 controls:**
+1. Firewalls - ✓ (should be done)
+2. Secure Configuration - Check
+3. Access Control - Check
+4. Malware Protection - Check
+5. Patch Management - Check
 
-### 8.3 Consequences
+**Identify any gaps:**
+- [ ] List what's not compliant
+- [ ] Prioritize fixes
+- [ ] Assign responsibility
+- [ ] Set deadlines
 
-**Severity levels:**
+#### Wednesday-Thursday: Fix Gaps
+**Common gaps to address:**
+- MFA not on all critical systems
+- Excessive admin rights
+- Old unsupported software
+- No documented patch process
+- Mobile devices not managed
 
-**Minor/Accidental Violations:**
-- Verbal warning
-- Reminder of policy
-- Additional training if needed
-- Example: Accidentally clicked phishing link and reported immediately
+**Fix high-priority gaps:**
+- Takes 1-2 days typically
+- Most are quick fixes
 
-**Moderate Violations:**
-- Written warning
-- Documented in employee file
-- May require training or monitoring period
-- Example: Excessive personal internet use after previous warning
+#### Friday: Evidence Gathering
+**Collect evidence for questionnaire:**
+- [ ] Screenshot: Windows Update status
+- [ ] Screenshot: Antivirus status
+- [ ] Screenshot: Firewall enabled
+- [ ] List: All devices and OS versions
+- [ ] List: Who has access to what
+- [ ] Document: Patch management process
+- [ ] Document: Mobile device security
 
-**Serious Violations:**
-- Formal disciplinary action
-- Suspension (with or without pay)
-- Potential dismissal
-- Example: Installing pirated software, accessing inappropriate content
-
-**Gross Misconduct:**
-- Immediate dismissal
-- Potential legal action
-- Report to authorities if criminal
-- Example: Illegal activity, deliberately stealing data, serious harassment
-
-**Factors considered:**
-- Intent (deliberate vs. accidental)
-- Severity of violation
-- Previous warnings
-- Impact on business/colleagues
-- Whether reported voluntarily
+**Outcome:** Ready to complete Cyber Essentials application
 
 ---
 
-### 9. Bring Your Own Device (BYOD) Specific Terms
+### Week 10: Apply for Cyber Essentials
 
-**If you use personal devices for work:**
+**Goal:** Submit CE application
 
-### 9.1 Security Requirements
-- Must meet same security standards as company devices
-- Company can require work apps be updated or removed
-- Lost device must be reported immediately
-- Company can remotely wipe work data (only work data)
+**Time needed:** 3-4 hours
 
-### 9.2 Your Rights
-- Can refuse BYOD (company will provide device instead)
-- Personal data remains private
-- Can stop using device for work anytime
-- Company only manages work apps, not personal phone
+#### Monday-Tuesday: Complete Questionnaire
+**Access via IASME or approved body:**
+- Work through questions systematically
+- Reference your policies and checklists
+- Be honest about your setup
+- Explain any exceptions or shared accounts
+- Use evidence you gathered
 
-### 9.3 Separation of Work and Personal
-- Company doesn't access personal photos, texts, etc.
-- Work data may be encrypted separately
-- Remote wipe only affects work apps/data
-- Your personal use is your business
+**Tips:**
+- Take your time (1-2 hours)
+- Have policies handy for reference
+- Save progress frequently
+- Ask for clarification if confused
 
----
+#### Wednesday: Submit and Wait
+**After submission:**
+- Certification body reviews (5-10 days typically)
+- May ask clarifying questions
+- Respond promptly to any queries
 
-### 10. Remote Access
+**While waiting:**
+- Continue other security work
+- Don't change anything significant
 
-**If you have remote access to office systems:**
+#### Thursday-Friday: Start Week 11 Tasks Early
+**Use waiting time productively:**
+- Begin GDPR compliance review
+- Start training materials preparation
 
-### 10.1 Requirements
-- Must use company-approved method (VPN, etc.)
-- MFA required for remote access
-- Don't share remote access credentials
-- Log out when finished
-
-### 10.2 Restrictions
-- Don't access from untrusted devices
-- Don't access from public computers
-- Don't let others use your remote access
-- Report any suspicious remote activity
+**Outcome:** Cyber Essentials application submitted
 
 ---
 
-### 11. Data Protection and Privacy
+### Week 11: GDPR Deep Dive
 
-### 11.1 Customer Data
-- Only access customer data you need for your job
-- Don't share customer information inappropriately
-- Don't take customer data home unnecessarily
-- Follow Data Protection Policy for handling
+**Goal:** Full GDPR compliance documentation
 
-### 11.2 Employee Data
-- Don't access colleagues' files without permission
-- Don't share employee information
-- Respect others' privacy
-- Report any unauthorized access you discover
+**Time needed:** 4-5 hours
 
-### 11.3 Company Confidential Information
-- Don't share trade secrets or confidential info
-- Don't discuss confidential matters in public
-- Don't email confidential info to personal accounts
-- Respect NDAs and confidentiality agreements
+#### Monday: Data Mapping
+**Create comprehensive data inventory:**
 
----
+**Customer data:**
+- Where collected (website, phone, in-person)
+- Where stored (Tradify, Xero, OneDrive, email)
+- Who has access
+- How long kept
+- Legal basis for processing
 
-### 12. Support and Questions
+**Employee data:**
+- What you collect and why
+- Where stored
+- Retention periods
+- Legal basis
 
-**If you're unsure about something:**
-- Ask before doing it
-- Contact: [IT CONTACT / MANAGER]
-- Email: [EMAIL]
-- Phone: [PHONE]
+**Document it all** (use [GDPR Checklist](../checklists/gdpr-compliance-checklist.md))
 
-**Common questions welcome:**
-- "Can I install this app?"
-- "Is this personal use OK?"
-- "Is this website safe?"
-- "Should I click this link?"
+#### Tuesday: Privacy Policy
+**If not already on website:**
+- [ ] Create privacy policy (use Data Protection Policy template)
+- [ ] Add to website footer
+- [ ] Make it easily accessible
+- [ ] Check it's readable and clear
 
-**When in doubt, ask.** We'd rather answer questions than deal with problems.
+**If already exists:**
+- [ ] Review for accuracy
+- [ ] Update if anything changed
+- [ ] Verify contact details correct
 
----
+#### Wednesday: Data Subject Rights Process
+**Document how you handle requests:**
 
-### 13. Policy Review and Updates
+**Create procedures for:**
+- [ ] Subject access requests (SAR)
+- [ ] Right to rectification
+- [ ] Right to erasure
+- [ ] Right to restrict processing
+- [ ] Marketing opt-out
 
-**This policy is reviewed:**
-- Annually
-- When technology changes
-- After serious violations
-- When new risks emerge
-- When employee feedback suggests improvements
+**Create templates:**
+- [ ] Response to SAR
+- [ ] Confirmation of deletion
+- [ ] Confirmation of unsubscribe
 
-**You'll be notified of significant changes.**
+**Assign responsibility:** Who handles these? (Probably office admin)
 
-**Last review:** [DATE]  
-**Next review:** [DATE]  
-**Version:** 1.0
+#### Thursday: Data Retention Schedule
+**Document how long you keep data:**
 
----
+| Data Type | Retention Period | Reason | Deletion Method |
+|-----------|------------------|--------|-----------------|
+| Customer invoices | 6 years | Tax law | Permanent delete |
+| Gas certificates | 2 years minimum | Legal requirement | Permanent delete |
+| Employee records | 6 years after leaving | Tax/employment law | Shred/delete |
+| Marketing lists | Until consent withdrawn | Consent | Remove immediately |
 
-### 14. Employee Acknowledgment
+**Set calendar reminders** for reviewing old data
 
-**By using company IT systems, you agree to:**
-- Follow this Acceptable Use Policy
-- Use systems responsibly and professionally
-- Report violations and security concerns
-- Accept that systems may be monitored
-- Understand consequences of policy violations
+#### Friday: Data Breach Response
+**Test your process:**
+- [ ] Who's responsible for handling breaches?
+- [ ] When do you notify ICO? (72 hours if high risk)
+- [ ] When do you notify customers?
+- [ ] What's the notification template?
+- [ ] Where do you log breaches?
 
----
+**Create incident log:** Spreadsheet to track any incidents
 
-## ✅ Implementation Checklist
-
-### Initial Setup
-- [ ] Customize policy with company details
-- [ ] Review with management team
-- [ ] Identify who monitors/enforces policy
-- [ ] Create process for handling violations
-
-### Staff Rollout
-- [ ] Share policy with all employees
-- [ ] Explain key points in team meeting (15 minutes)
-- [ ] Allow time for questions
-- [ ] Get written acknowledgment from each employee
-- [ ] Keep signed acknowledgments in employee files
-
-### Ongoing Management
-- [ ] Include in new employee onboarding
-- [ ] Annual reminder to all staff
-- [ ] Update when technology changes
-- [ ] Review after any serious violations
-- [ ] Consistent enforcement
+**Outcome:** Comprehensive GDPR compliance documentation
 
 ---
 
-## 📊 NorthWest Heating Example
+### Week 12: Training and Maintenance
 
-### What They Included
+**Goal:** Establish ongoing security program
 
-**Emphasized:**
-- Reasonable personal use is fine (don't be draconian)
-- Report issues, don't hide them
-- Ask if unsure
+**Time needed:** 3-4 hours
 
-**Their specific rules:**
-- Company phones can be used for personal calls/texts
-- Music/podcasts fine while driving between jobs
-- Quick personal browsing during breaks OK
-- Don't install apps without asking Sarah first
+#### Monday-Tuesday: Security Training Program
+**Create annual training schedule:**
 
-**How they rolled it out:**
-- James read key points at monthly meeting (10 minutes)
-- Focused on "common sense" approach
-- Emphasized security parts (no pirated software, no suspicious links)
-- Everyone verbally acknowledged understanding
-- Copies available in office and on OneDrive
+**Topics to cover annually:**
+- [ ] Password security and MFA
+- [ ] Phishing recognition
+- [ ] Mobile device security
+- [ ] Data protection basics
+- [ ] Incident reporting
 
-**Violations they've handled:**
-- None serious
-- Reminded someone not to install random browser extensions
-- All handled informally with conversation
+**Delivery method:**
+- Short team meeting (30 minutes)
+- Hands-on demonstrations
+- Real examples
+- Q&A session
 
-**Philosophy:** "Don't be unreasonable, don't be stupid, ask if unsure"
+**Document training:**
+- Date conducted
+- Topics covered
+- Who attended
+- Any questions/issues
+
+**Schedule:** Add to calendar for annual repetition
+
+#### Wednesday: Regular Security Tasks
+**Create monthly/quarterly schedules:**
+
+**Monthly (30 minutes):**
+- [ ] Check all devices are updated
+- [ ] Verify backups working
+- [ ] Review access - anyone left who shouldn't have access?
+- [ ] Check for any suspicious activity
+
+**Quarterly (1 hour):**
+- [ ] Review risk assessment
+- [ ] Check policies still accurate
+- [ ] Review vendor list
+- [ ] Test incident response procedures
+- [ ] Security awareness reminder for staff
+
+**Annually (2-3 hours):**
+- [ ] Full policy review
+- [ ] Risk assessment update
+- [ ] Staff training
+- [ ] Cyber Essentials renewal
+- [ ] Review all system access
+
+**Assign responsibility:** Office manager typically
+
+#### Thursday: Measurement and Metrics
+**Track security metrics:**
+
+**Simple metrics to track:**
+- [ ] Password manager adoption (100%?)
+- [ ] MFA enabled on all critical systems (100%?)
+- [ ] Systems up to date (100%?)
+- [ ] Security incidents (count and severity)
+- [ ] Time to resolve incidents
+- [ ] Training completion rate
+- [ ] Policy acknowledgments
+
+**Why track:**
+- Shows progress
+- Identifies problems
+- Evidence for customers/audits
+- Helps budget/planning
+
+**Tool:** Simple spreadsheet, update quarterly
+
+#### Friday: Continuous Improvement
+**Review 90 days:**
+- [ ] What worked well?
+- [ ] What was difficult?
+- [ ] What would you do differently?
+- [ ] What still needs work?
+
+**Create next 90-day plan:**
+- Advanced security measures
+- Automation opportunities
+- Additional training
+- New tools or systems
+
+**Celebrate:** You've built a real security program!
+
+**Outcome:** Sustainable security management program
 
 ---
 
-## 🔗 Related Policies
+## ✅ 90-Day Completion Checklist
 
-- [Password Policy](password-policy.md) - secure access requirements
-- [Mobile Device Policy](06-mobile-device-policy.md) - device-specific rules
-- [Data Protection Policy](data-protection-policy.md) - handling customer data
-- [Incident Response Policy](incident-response-policy.md) - reporting problems
+**By the end of 90 days, you should have:**
+
+### Documentation
+- [x] Complete policy suite (7+ policies)
+- [x] Risk assessment and register
+- [x] Privacy policy on website
+- [x] Data retention schedule
+- [x] Incident response procedures
+- [x] Vendor security documentation
+
+### Technical Controls
+- [x] All controls from 30-Day Quick Start
+- [x] Cyber Essentials compliant
+- [x] Backup tested and verified
+- [x] Incident response capability tested
+- [x] All systems patched and updated
+
+### Processes
+- [x] Monthly security review scheduled
+- [x] Quarterly risk review scheduled
+- [x] Annual training scheduled
+- [x] Incident reporting process
+- [x] Data subject rights process
+- [x] Vendor review process
+
+### Certifications
+- [x] Cyber Essentials certified (or application submitted)
+- [x] GDPR compliant
+- [x] Evidence package for tenders
+
+### Team
+- [x] All staff trained on security basics
+- [x] Everyone knows who to contact for issues
+- [x] Policies acknowledged by all
+- [x] Security is part of culture
 
 ---
 
-**This policy protects the company legally while being realistic about personal use. The goal is responsible behavior, not draconian control.**
+## 💰 Total Investment Summary
+
+### Money
+**Month 2:**
+- No additional costs (building on Month 1)
+
+**Month 3:**
+- Cyber Essentials: £300-500
+- Total new spend: £300-500
+
+**Overall 90-day cost:** £350-550 + Month 1 costs
+
+### Time
+**Month 1 (30-Day Quick Start):** ~12 hours  
+**Month 2:** ~12 hours  
+**Month 3:** ~15 hours  
+**Total 90 days:** ~40 hours
+
+**Spread over 90 days:** ~3 hours/week average
+
+### Return on Investment
+**Value delivered:**
+- Cyber Essentials certification (contract requirement)
+- GDPR compliance (legal requirement)
+- Reduced risk of data breach (avg cost £5k-10k)
+- Customer confidence (win more contracts)
+- Insurance premium reduction (10-20% possible)
+- Peace of mind (priceless)
+
+**Contracts enabled:**
+- Public sector tenders requiring CE
+- Large corporate clients requiring security evidence
+- Data-sensitive customers (healthcare, finance)
+
+---
+
+## 📊 NorthWest Heating's 90-Day Journey
+
+**Their timeline:**
+- **Days 1-30:** Completed Quick Start (passwords, MFA, mobile security)
+- **Days 31-60:** Policies documented, risk assessment done
+- **Days 61-90:** Cyber Essentials achieved, GDPR documented
+
+**Total time:** James ~20 hours, Sarah ~20 hours (40 hours total)  
+**Total cost:** £395 (CE certification)
+
+**Results:**
+- Won £15k council contract requiring CE (paid for itself immediately)
+- Can confidently answer customer security questions
+- No security incidents
+- Staff understand security basics
+- Regular processes in place
+
+**What worked:**
+- Breaking it into small weekly tasks
+- Using templates rather than starting from scratch
+- Focusing on practical implementation, not perfection
+- Getting team buy-in early
+
+**What was challenging:**
+- Finding time in busy schedules
+- Keeping it simple (tendency to over-complicate)
+- Getting everyone to use password manager consistently (took 3 weeks)
+
+**Their advice:**
+- "Start with 30-day plan, don't skip ahead"
+- "Templates save hours - customize, don't reinvent"
+- "Get team involved early - not just management"
+- "Track what you do - helps with next year's renewal"
+
+---
+
+## 🔄 What Happens After 90 Days?
+
+**You'll need to:**
+- Maintain what you've built
+- Renew Cyber Essentials annually (much easier second time)
+- Continue monthly/quarterly reviews
+- Annual staff training
+- Update policies when things change
+
+**Monthly maintenance:** 30 minutes  
+**Quarterly reviews:** 1 hour  
+**Annual renewal:** 3-4 hours
+
+**Much less work than initial setup!**
+
+---
+
+## 🚀 Beyond 90 Days (Optional Enhancements)
+
+**If you want to go further:**
+
+**Advanced Security:**
+- Penetration testing
+- Security awareness phishing simulations
+- Advanced threat monitoring
+- Cyber Essentials Plus (technical verification)
+
+**Business Continuity:**
+- Formal business continuity plan
+- Disaster recovery testing
+- Alternative site planning
+
+**Compliance:**
+- ISO 27001 (information security management)
+- Industry-specific certifications
+- SOC 2 (if you have software customers)
+
+**But honestly:** For most small trades businesses, the 90-day plan is plenty. Focus on maintaining what you've built rather than adding complexity.
+
+---
+
+## 🔗 Related Resources
+
+- [30-Day Quick Start](30-day-quick-start.md) - prerequisite
+- [All Policies](../policies/) - templates used in this plan
+- [All Checklists](../checklists/) - supporting materials
+- [Risk Assessment Template](risk-assessment-template.md) - Week 6 tool
+
+---
+
+## ❓ Common Questions
+
+**"What if we can't complete everything in 90 days?"**
+Take your time. Better to do it properly than rush. Aim for 120 days if needed.
+
+**"Do we need to do everything in order?"**
+Mostly yes. Some flexibility, but don't skip the 30-Day Quick Start foundations.
+
+**"What if we fail Cyber Essentials first time?"**
+Common. You get feedback, fix issues (usually 1-2 weeks), resubmit. Most pass second time.
+
+**"Can we maintain this long-term?"**
+Yes. After initial setup, it's 30 minutes monthly, 1 hour quarterly, half day annually.
+
+**"What if our business grows significantly?"**
+Good problem! Review security measures when you hit 15+ employees or expand significantly.
+
+---
+
+**You've built proper security in 90 days. That's impressive. Now maintain it, and security becomes business-as-usual rather than a project.**
+
+**Well done.**
