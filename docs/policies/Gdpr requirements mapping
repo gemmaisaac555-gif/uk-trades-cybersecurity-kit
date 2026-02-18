@@ -1,0 +1,163 @@
+# GDPR Requirements Mapping
+### How the Small Business Security Starter Kit Addresses UK GDPR
+
+---
+
+> **Who this document is for:** Business owners, office managers, or anyone who needs to understand whether their security policies satisfy their GDPR obligations. This document maps specific GDPR requirements to the policies in this kit, so you can see what's covered and what gaps remain.
+>
+> **Note:** This mapping covers the most relevant GDPR articles for a small trades or services business. It is not exhaustive legal advice. If you handle significant volumes of personal data, sensitive data (medical, financial, etc.), or serve regulated industries, seek specialist guidance.
+
+---
+
+## Quick Reference: What GDPR Requires and What the Kit Covers
+
+| GDPR Requirement | Relevant Article | Covered by Kit | Gap / Notes |
+|---|---|---|---|
+| Secure processing of personal data | Article 5(1)(f), Article 32 | Mobile Device Policy, Backup & Recovery Policy | Password policy not yet in kit — interim: Bitwarden guidance in mobile policy |
+| Data minimisation (only collect what you need) | Article 5(1)(c) | Mobile Device Policy (photo workflow section) | No formal data inventory/register yet |
+| Accuracy (keep data up to date) | Article 5(1)(d) | Partially — Tradify used as system of record | No explicit data accuracy policy |
+| Storage limitation (don't keep data longer than needed) | Article 5(1)(e) | Mobile Device Policy (delete photos after uploading) | No formal retention schedule |
+| Integrity and confidentiality (protect against unauthorised access) | Article 5(1)(f) | Mobile Device Policy, Backup & Recovery Policy | |
+| Accountability (document your compliance) | Article 5(2) | All policy documents serve as evidence of accountability | Consider adding a simple data register |
+| Appropriate technical and organisational measures | Article 32 | Mobile Device Policy, Backup & Recovery Policy | |
+| Data breach notification (72-hour rule) | Article 33 | Backup & Recovery Policy (incident response section) | No standalone breach response procedure yet |
+| Individual rights (access, erasure, etc.) | Articles 15–22 | Not yet covered in kit | Future addition recommended |
+| Lawful basis for processing | Article 6 | Not yet covered in kit | Needed if you send marketing emails |
+| Privacy notice | Articles 13–14 | Not yet covered in kit | Needed if collecting data from customers |
+
+---
+
+## Detailed Mapping
+
+### Article 5 — Principles of Processing
+
+GDPR Article 5 sets out seven principles that all processing of personal data must comply with. Here's how the kit addresses them:
+
+**5(1)(a) — Lawfulness, fairness, and transparency**
+The kit does not currently include a privacy notice or lawful basis documentation. For most small trades businesses, the lawful basis for processing customer data is "contract" (you need the address to do the job) or "legitimate interests" (follow-up for warranty purposes). This is generally straightforward but should be documented. *Gap: Consider adding a simple privacy notice for customer-facing use.*
+
+**5(1)(b) — Purpose limitation**
+The mobile device policy implicitly addresses this by restricting where customer data is stored (Tradify and Outlook, not personal WhatsApp or camera rolls). *Partially covered.*
+
+**5(1)(c) — Data minimisation**
+The mobile device policy's photo workflow — upload to Tradify, delete from camera roll — is a practical data minimisation measure. It ensures job photos are stored against a specific job record, not retained indefinitely in personal device storage. *Covered by Mobile Device Policy.*
+
+**5(1)(d) — Accuracy**
+Not explicitly addressed. The use of Tradify as a single system of record helps with accuracy (one place for customer data, less risk of outdated duplicates). *Partially covered — no explicit accuracy policy.*
+
+**5(1)(e) — Storage limitation**
+The mobile device policy's photo deletion requirement is a storage limitation measure. There is no broader retention schedule for other data types. *Partially covered — retention schedule is a gap.*
+
+**5(1)(f) — Integrity and confidentiality**
+This is the most directly relevant principle for a security policy kit. The measures covered:
+- Screen lock requirements (prevent unauthorised access to devices)
+- Encryption (data protected if device is lost)
+- Bitwarden (protect account credentials)
+- Remote wipe capability (contain breaches from lost devices)
+- Backup and recovery (protect against data loss)
+*Well covered by Mobile Device Policy and Backup & Recovery Policy.*
+
+**5(2) — Accountability**
+The existence of written, dated, approved policies with named document owners is itself evidence of accountability. The implementation decisions and lessons learned documents strengthen this by showing genuine engagement with compliance, not just paperwork. *Well covered — the documentation approach taken by this kit directly supports accountability.*
+
+---
+
+### Article 32 — Security of Processing
+
+Article 32 requires "appropriate technical and organisational measures" to ensure security appropriate to the risk. It explicitly mentions:
+
+**(a) Pseudonymisation and encryption of personal data**
+Full-disk encryption on Android 12+ and iOS devices is confirmed in the mobile device policy. This satisfies the encryption requirement for mobile data storage. *Covered.*
+
+**(b) Ongoing confidentiality, integrity, availability, and resilience**
+Confidentiality: screen locks, PINs, encryption, Bitwarden
+Integrity: single system of record (Tradify), structured photo workflow
+Availability: backup and recovery policy
+Resilience: cloud-based software with provider backups, plus additional exports
+*Substantially covered.*
+
+**(c) Ability to restore availability and access to personal data in a timely manner**
+The backup and recovery policy includes recovery time targets and incident scenarios. *Covered.*
+
+**(d) Process for regularly testing, assessing, and evaluating effectiveness**
+The mobile device policy includes a monthly check (first Monday). The backup policy includes an annual recovery test. Annual policy reviews are documented. *Covered — basic but genuine.*
+
+---
+
+### Article 33 — Notification of a Personal Data Breach
+
+If a data breach occurs (personal data lost, stolen, or accessed without authorisation), you must:
+- Notify the ICO within **72 hours** of becoming aware, if the breach is likely to result in risk to individuals
+- Notify affected individuals if the breach is likely to result in high risk to them
+
+The backup and recovery policy's incident response section covers the ransomware scenario and references ICO reporting. The mobile device policy covers lost/stolen phone procedures.
+
+*Gap: There is no standalone breach response procedure. For most small businesses, the steps are: contain the breach → assess the risk → report to ICO if required → notify individuals if required → document everything. Consider adding a simple one-page breach response checklist to the kit.*
+
+**What counts as a breach you might have to report:**
+- Lost or stolen phone containing unencrypted customer data — *reportable if encryption wasn't in place; probably not reportable if phone was encrypted and remotely wiped quickly*
+- Ransomware that encrypted files containing customer data — *likely reportable*
+- Email sent to wrong customer containing another customer's details — *reportable depending on sensitivity*
+- Accidental deletion with no backup — *likely reportable*
+- Staff accessing data they weren't supposed to — *reportable*
+
+**ICO breach reporting:** ico.org.uk/for-organisations/report-a-breach/
+
+---
+
+### Articles 15–22 — Individual Rights
+
+GDPR gives individuals rights over their personal data:
+
+- **Article 15** — Right of access (subject access requests)
+- **Article 16** — Right to rectification (correct inaccurate data)
+- **Article 17** — Right to erasure ("right to be forgotten")
+- **Article 18** — Right to restriction of processing
+- **Article 20** — Right to data portability
+- **Article 21** — Right to object
+
+*This area is not currently covered by the kit.* For most small trades businesses, the practical response to a subject access request is: "here's everything we have about you in Tradify and Outlook." It's rarely complicated at this scale, but you should know how to respond and what your systems contain.
+
+*Recommended addition: A simple one-page "How to respond to a subject access request" guide.*
+
+---
+
+## What the Kit Covers Well
+
+The kit's strongest GDPR contribution is in **Article 32** (security of processing) and **Article 5(2)** (accountability through documentation). These are the areas where a security policy toolkit has most direct impact.
+
+The mobile device policy addresses the most common source of data breach for small businesses in the trades sector: personal data stored on mobile devices without adequate protection. Full-disk encryption, screen locks, and remote wipe capability are exactly the "appropriate technical measures" Article 32 requires.
+
+---
+
+## What the Kit Doesn't Cover (Yet)
+
+These are real GDPR requirements not addressed by the current kit version:
+
+| Gap | Priority | Notes |
+|---|---|---|
+| Privacy notice for customers | Medium | Required if collecting customer data from scratch. Most trades businesses need a short one. |
+| Lawful basis documentation | Medium | Simple — "contract" covers most customer data processing |
+| Data retention schedule | Medium | How long do you keep customer records? 6 years is typical for business records |
+| Breach response procedure | High | A one-page checklist would address this quickly |
+| Subject access request process | Low | Rare at small business scale, but good to have documented |
+| Data processing register | Low | The ICO doesn't require SMEs under 250 employees to maintain one (with exceptions), but it's useful |
+
+---
+
+## ICO Resources for Small Businesses
+
+The UK Information Commissioner's Office has specific guidance for small businesses:
+
+- **SME Hub:** ico.org.uk/for-organisations/sme-web-hub/
+- **Data protection self-assessment:** ico.org.uk/for-organisations/data-protection-self-assessment/
+- **Report a breach:** ico.org.uk/for-organisations/report-a-breach/
+- **Guide to UK GDPR:** ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/
+
+The ICO's approach to small businesses is generally pragmatic. They are looking for genuine engagement with data protection, proportionate measures, and evidence that you take it seriously — not perfect enterprise-level compliance.
+
+---
+
+*This mapping is provided as a practical reference guide and does not constitute legal advice. For specific compliance questions, consult a qualified data protection solicitor or GDPR specialist.*
+
+*Part of the Small Business Information Security Starter Kit.*
