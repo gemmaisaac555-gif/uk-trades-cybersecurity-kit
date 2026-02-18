@@ -1,0 +1,151 @@
+# NorthWest Heating & Gas Ltd — Security Implementation Cost Breakdown
+
+> **What this document is:** A transparent record of what it actually cost NorthWest Heating to implement their mobile device security policy — in time, money, and ongoing effort. Useful for other small businesses wondering if this is affordable, and for NorthWest Heating to track spend going forward.
+
+---
+
+## Summary
+
+| Category | One-Off Cost | Ongoing Monthly Cost |
+|---|---|---|
+| Software & tools | £0 | £0 |
+| Hardware | £0 (used existing phones) | £0 |
+| Staff time (setup) | ~5.5 hours | ~20 mins/month |
+| External consultants | £0 | £0 |
+| **Total** | **£0 + 5.5 hours** | **£0 + 20 mins** |
+
+**The headline:** Implementing a proper mobile device security policy for an 8-person trades business cost NorthWest Heating nothing in money and about half a working day in time.
+
+---
+
+## One-Off Implementation Costs
+
+### Money Spent
+
+**Software:** £0
+
+All tools used are free:
+- Bitwarden (password manager) — free tier, no restrictions for individual use
+- Find My Device (Android) — built into all Android phones, no cost
+- Find My iPhone — built into all iPhones, no cost
+- Microsoft 365 — already paying for this (business email, Teams, OneDrive)
+- Tradify — already paying for this (job management)
+
+**Hardware:** £0
+
+No new hardware was purchased. The 6 Samsung Galaxy A34s were already in use. The iPad was already in use. James and Sarah's personal iPhones were already in use.
+
+*Note: If the phones had needed replacing or upgrading, the A34 costs approximately £150 refurbished or £250 new. For context, the full fleet (6 phones) would have cost ~£900-£1,500 if purchased new. They weren't needed here, but this is the number to plan with.*
+
+**Training materials:** £0
+
+No external training purchased. James ran the briefing himself. Sarah used the policy document as the script.
+
+**External consultants:** £0
+
+Policy written in-house using the Small Business Security Starter Kit template. No solicitor, IT consultant, or security professional required at this stage.
+
+---
+
+### Time Spent
+
+| Activity | Who | Time |
+|---|---|---|
+| Reading the template and deciding what applied | James + Sarah together | 1 hour |
+| Customising the policy document for NorthWest Heating | Sarah | 1 hour |
+| Setting up Find My Device on 6 company phones | Sarah | 1.5 hours |
+| Checking + updating Android versions on all phones | Sarah | 30 mins |
+| Installing and configuring Bitwarden on all phones | Sarah | 45 mins |
+| Checking PINs were set (and fixing 2 that weren't) | Sarah | 15 mins |
+| Running the team meeting | James | 15 mins |
+| Following up with one engineer who needed Bitwarden help | Sarah | 15 mins |
+| **Total** | | **~5.5 hours** |
+
+**Breakdown by person:**
+- James: ~1 hour 15 mins (policy review + team meeting)
+- Sarah: ~4 hours 15 mins (customisation + all technical setup)
+
+**Cost in salary terms (approximate):**
+- James (director): ~£35/hr → 1.25 hrs → ~£44
+- Sarah (admin): ~£15/hr → 4.25 hrs → ~£64
+- **Total implied salary cost: ~£108**
+
+This is the real cost — not the money, but the staff time. Under £110 in equivalent staff cost to implement a proper mobile device policy from scratch.
+
+---
+
+## Ongoing Costs
+
+### Monthly
+
+| Activity | Who | Time |
+|---|---|---|
+| First-Monday phone check (PINs, updates, app versions) | Sarah | ~20 mins |
+| **Total ongoing** | | **~20 mins/month** |
+
+**Annual equivalent:** ~4 hours/year of Sarah's time → ~£60/year in salary terms.
+
+### Annual
+
+| Activity | Who | Time |
+|---|---|---|
+| Annual policy review (January) | James + Sarah | ~1 hour |
+| Update policy if anything changed | Sarah | ~30 mins |
+| **Total annual review** | | **~1.5 hours** |
+
+---
+
+## What Would Have Cost More
+
+These are the things NorthWest Heating chose not to do — with notes on what they'd cost if they wanted them.
+
+**Mobile Device Management (MDM) software**
+Platforms like Microsoft Intune, Jamf, or similar would allow remote management of all phones from a central console — push updates, enforce policies automatically, detailed audit logs.
+
+Cost: Microsoft Intune is included in Microsoft 365 Business Premium (£18.60/user/month). Their current Microsoft 365 Business Basic plan (£4.90/user/month) doesn't include it.
+
+Decision: Not needed at 8 people managing manually. Worth revisiting at ~15+ staff or when Cyber Essentials certification requires it.
+
+**IT Consultant to write the policy**
+A freelance IT security consultant or managed service provider would typically charge £500-£1,500 to write a mobile device policy from scratch, more if they include implementation support.
+
+Decision: Template + customisation approach worked fine. The time saving from using a template over blank-page policy writing is the main value.
+
+**Cyber Essentials certification**
+The certification itself costs £300 (self-assessment, Cyber Essentials basic) or £500+ (verified, Cyber Essentials Plus). There's also preparation time.
+
+Decision: Not yet applied. On the roadmap when chasing larger commercial contracts. The mobile device policy is one of the five areas assessed — having it documented now makes the certification process easier when they get to it.
+
+---
+
+## Return on Value (Not Just ROI)
+
+Cost is easy to calculate. The value is harder to quantify but real:
+
+**Customer confidence:** James was asked about security on a quote last month. For the first time, he had a clear answer. Anecdotally, he believes this helped win the contract.
+
+**GDPR risk reduction:** Before the policy, job site photos were accumulating on personal camera rolls. One engineer had 400+ photos. This is a realistic data breach waiting to happen. The clean-up and new workflow removes that risk — and GDPR fines for SMEs, while rare, can reach 2% of annual turnover (£5,000 minimum in practice for serious breaches).
+
+**Cyber Essentials pathway:** The policy is one of five required areas. Having it done removes a future barrier.
+
+**Staff clarity:** Engineers know what's expected. No ambiguity about "can I use my work phone for X?" reduces friction and awkward conversations.
+
+**Peace of mind:** James now has a documented, defensible position if a customer, insurer, or regulator asks about mobile device security.
+
+---
+
+## Lessons for Other Businesses
+
+**You probably don't need to spend money.** The free tools (Bitwarden, Find My Device) are genuinely good. The paid alternatives are worth it at scale — not at 8 people.
+
+**The time cost is front-loaded.** Setup takes a few hours. Ongoing is barely anything. The biggest barrier is getting started, not maintaining it.
+
+**Sarah's time was the real cost.** Admin or office staff are typically the ones who implement this — make sure it's in their job description and allocated time, not just "added to their list."
+
+**Don't wait for perfect.** NorthWest Heating's v1.0 is incomplete by enterprise standards. It's also vastly better than what they had before, implemented in two weeks, and actually being used. Done and imperfect beats perfect and never started.
+
+---
+
+*Document Owner: Sarah Mitchell*
+*Created: January 2025*
+*Next Review: January 2026*
