@@ -1,0 +1,193 @@
+# NorthWest Heating & Gas Ltd — Lessons Learned
+
+> **What this document is:** An honest account of what went well, what didn't, what surprised them, and what they'd do differently. Written after the first month of running the mobile device policy. Useful for NorthWest Heating's own reviews and as a realistic reference for other small businesses doing the same thing.
+
+---
+
+## The Honest Version
+
+Most security guides are written by experts telling businesses what they should do. This document is written by a small heating company describing what actually happened when they tried to do it.
+
+It's not a success story with smooth edges. It's a real account with the friction included.
+
+---
+
+## What Went Well
+
+### 1. Keeping it short worked
+
+The biggest single decision that made the rollout work was keeping the policy readable. James tested an early draft on Dave before the team meeting. Dave said he'd "probably skim it and sign it."
+
+That was the signal to strip it back. The final version took 10 minutes to read, not 40. Engineers actually read it. The team meeting questions showed they'd engaged with the content, not just sat through a briefing.
+
+**Lesson:** If your staff won't read it, it doesn't exist as a policy. Readability is a security property.
+
+---
+
+### 2. Doing the technical setup before the announcement
+
+Sarah spent two afternoons setting up Bitwarden and Find My Device on all phones before James said a word to the team. When he announced the policy, he was able to say "it's already done — you've got Bitwarden on your phone, here's your login."
+
+This removed the biggest barrier: fear of hassle. Nobody had to do anything complicated in front of their colleagues. The friction was absorbed quietly before the meeting.
+
+Found during setup: 2 phones had no PIN set. Fixed silently before the meeting. One phone was on Android 10 — updated to Android 12 before the announcement.
+
+**Lesson:** Remove the barriers before you announce the requirement. People comply with things that are already easy.
+
+---
+
+### 3. Using a real example (Tom's lost phone)
+
+The policy includes a short account of Tom leaving his phone on a job site in 2024, locking it remotely, and recovering it the next day with no data exposed. This was included because it was a real thing that happened and shows the system works.
+
+Engineers responded to this differently than they would have responded to a hypothetical. It's not abstract ("what if you lose your phone?") — it's something that already happened to someone they know.
+
+**Lesson:** Real examples are worth 10x abstract rules. Find one from your own business and use it.
+
+---
+
+### 4. James framing it as "we" not "you"
+
+The team meeting worked partly because James positioned the policy as something they were all doing together, including him — not a directive from management at staff. He and Sarah had already set up their own iPhones. He showed his phone during the meeting as an example.
+
+The engineers' questions at the meeting were practical and curious, not defensive. That tone was set in the first two minutes.
+
+**Lesson:** Security culture starts with leadership doing it first, not just asking for it.
+
+---
+
+### 5. The unexpected password manager benefit
+
+After seeing Bitwarden on their work phones, two engineers asked if they could use it for personal stuff. Sarah set them up with personal accounts. Both are now using it at home.
+
+This wasn't planned. It's a genuine side benefit — staff who use good password hygiene personally are more likely to maintain it at work, and less likely to reuse work passwords from compromised personal accounts.
+
+**Lesson:** Security tools that are genuinely useful get adopted beyond their original scope. This is a good thing.
+
+---
+
+## What Didn't Go Well
+
+### 1. The photo clean-up was harder than expected
+
+Discovering that one engineer had 400+ job site photos in his camera roll was the right problem to find and fix. But the clean-up itself was uncomfortable. He had to spend an evening going through 18 months of photos, uploading relevant ones to Tradify, and deleting the rest.
+
+He wasn't in trouble — nobody framed it that way — but it felt like extra work created by the new policy. Even though the issue predated the policy, it felt connected.
+
+**How it was handled:** James made it clear at the team meeting that anything in camera rolls before the policy date was a "clean up when you can" situation, not an immediate requirement. No deadline pressure. One engineer still has some older photos to clear — Sarah is following up gently.
+
+**Lesson:** Don't create a sense of punishment for legacy issues that predate the policy. Give people time and support to get to the right state, not a deadline that creates resentment.
+
+---
+
+### 2. The 5-minute auto-lock was initially too short for one use case
+
+One engineer uses his phone as a reference while working — he'll have a job sheet or wiring diagram open and refer back to it over 10-15 minutes while his hands are occupied. The 5-minute lock-out meant the phone locked mid-job and he had to unlock it with gloves or dirty hands.
+
+**How it was handled:** Extended his lock timer to 10 minutes as a documented exception. His phone is company-owned, used on sites, and the risk difference between 5 and 10 minutes is minimal. Sarah noted the exception in the device log.
+
+**Lesson:** One-size-fits-all rules hit edge cases. Build in a process for reasonable exceptions rather than expecting 100% compliance with an unreasonable rule.
+
+---
+
+### 3. One engineer struggled with Bitwarden
+
+Setting up Bitwarden involves creating a master password, understanding that Bitwarden generates and stores passwords rather than using one password everywhere, and trusting a new system with your logins.
+
+For most of the team this was quick. One engineer found it confusing and slightly anxiety-inducing — the idea of "what if I forget my master password?" took a while to work through.
+
+Sarah spent 15 minutes with him one-to-one, which resolved it. He's now the most enthusiastic Bitwarden user on the team.
+
+**How it was handled:** Individual follow-up from Sarah. No group pressure or making it a bigger deal than it was.
+
+**Lesson:** One-to-one follow-up catches the people who won't ask questions in a group setting. Build in time for this — it's where the real adoption happens.
+
+---
+
+### 4. The policy document still has sections that are too formal
+
+Even after stripping it back, some sections still read more like a template than a James-and-Sarah document. The disciplinary section in particular ("could lead to dismissal... potential legal consequences under GDPR") reads noticeably different from the rest.
+
+It wasn't wrong to include — it's legally relevant — but it jars slightly against the surrounding tone.
+
+**How it was handled:** Left it as is for v1.0. Flagged for the January 2026 review — consider whether to soften the language or add a preamble that contextualises it.
+
+**Lesson:** Perfect consistency isn't always possible when you're balancing readability with legal necessity. Note the tension and revisit it, don't pretend it isn't there.
+
+---
+
+## What Surprised Them
+
+### Surprise 1: The customer question happened within a month
+
+James had been vaguely motivated by customers asking about security in tenders. He expected this to be relevant in the future. In fact, a customer asked directly about their data security practices on a quote call within three weeks of the policy being implemented.
+
+Having a clear, honest answer ("we have a documented mobile device policy, we use Tradify to manage job data, we've just rolled out Bitwarden for password management") changed the tone of the conversation. The quote was successful.
+
+They can't prove causation. But the feeling of being prepared rather than caught off guard was noticeable.
+
+---
+
+### Surprise 2: The monthly check is genuinely quick
+
+Sarah had mentally estimated the monthly phone check at 45-60 minutes. In practice it takes around 20 minutes: check all phones are showing recent security updates in settings, confirm Bitwarden is installed and active, confirm Find My Device is enabled. Done.
+
+She now does it on the first Monday of the month while everyone's in the office for the weekly briefing.
+
+---
+
+### Surprise 3: Engineers asked smarter questions than expected
+
+The team meeting questions were not "do we have to do this?" — they were practical and specific. "What happens to my personal stuff if the phone gets wiped?" "Can we use Bitwarden for the office alarm code?" "What if I'm abroad and lose my phone?"
+
+The questions showed the engineers had thought about the policy, not just sat through the meeting. This suggested the plain English approach had worked.
+
+---
+
+## What They'd Do Differently
+
+**Start with the photo clean-up conversation first.** The photo problem predated the policy and was the biggest single data risk NorthWest Heating had. If James had raised it as a "we found a problem and here's how we're fixing it" conversation before announcing a new policy, the clean-up might have felt less connected to new rules.
+
+**Do the team meeting over lunch with food.** James's reflection: "We should've done it over lunch and bought pizza. Same meeting, same content, but it would've felt like a team thing rather than a policy thing." Low cost, better atmosphere.
+
+**Write the implementation decisions document first.** (That's the companion document to this one.) Having a record of why they made each choice would have been useful during the team meeting when questions came up about specific decisions. They made the right calls — but hadn't written them down, so James was answering from memory.
+
+**Set up the personal Bitwarden accounts at the same time.** Two engineers asked about personal Bitwarden after the meeting. Sarah could have offered it proactively — "we're setting up work accounts, and if you want a personal one linked to your personal email, I can do that too." Would have taken 5 minutes per person and built goodwill.
+
+---
+
+## State After One Month
+
+| Item | Status |
+|---|---|
+| All company phones have PIN/fingerprint lock | ✅ Done |
+| All company phones have Find My Device enabled | ✅ Done |
+| All company phones on Android 12+ | ✅ Done |
+| Bitwarden installed on all company phones | ✅ Done |
+| Team briefed and acknowledged policy | ✅ Done |
+| Photo clean-up from camera rolls | ⏳ Mostly done — 1 engineer still clearing older photos |
+| Monthly check routine established | ✅ Done |
+| BYOD personal phone setup (James + Sarah) | ✅ Done |
+| Policy document on shared drive | ✅ Done |
+| New starter briefing added to induction checklist | ✅ Done |
+
+**Overall: 9/10 items complete after one month.** The outstanding item is low risk and in progress.
+
+---
+
+## What This Looks Like After a Year
+
+NorthWest Heating's plan for the first annual review (January 2026):
+
+- Review whether any incidents occurred and what they revealed
+- Check if any of the "open decisions" (MDM software, Cyber Essentials, email security) need to move forward
+- Update the policy if tools, devices, or team structure changed
+- Repeat the team briefing with any new starters covered
+- Assess whether the 10-minute lock exception is still appropriate
+- Consider extending this model to a backup and recovery policy (next on the list)
+
+---
+
+*Document Owner: Sarah Mitchell*
+*Created: February 2025 (one month post-implementation)*
+*Next Review: January 2026*
