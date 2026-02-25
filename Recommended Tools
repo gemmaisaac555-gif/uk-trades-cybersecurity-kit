@@ -1,0 +1,370 @@
+# Recommended Tools and Software
+
+**Specific software recommendations for UK trades businesses**
+
+---
+
+## 🎯 Philosophy
+
+**Free/low-cost tools are often perfectly adequate.** You don't need enterprise-grade expensive solutions.
+
+**This guide recommends:**
+- Tools actually used by small UK trades businesses
+- Options at different price points
+- What NorthWest Heating uses (proven to work)
+
+---
+
+## 🔐 Password Managers
+
+### Bitwarden (Recommended for Most)
+- **Cost:** Free (personal), £3/user/month (business)
+- **Why:** Open source, secure, works on all devices
+- **Best for:** Small businesses wanting free/cheap solution
+- **UK-based:** No (US), but GDPR compliant
+- **NorthWest Heating uses:** Bitwarden free tier
+
+### 1Password
+- **Cost:** £6.50/user/month (business)
+- **Why:** Very polished, excellent user experience
+- **Best for:** If budget allows and you want premium experience
+- **UK-based:** No (Canada), but GDPR compliant
+
+### Keeper
+- **Cost:** £3.75/user/month
+- **Why:** Good middle ground, strong security
+- **Best for:** Those wanting paid solution cheaper than 1Password
+
+**Don't use:** Browser-only password saving (not secure enough), Excel spreadsheets, sticky notes
+
+---
+
+## 📧 Email and Productivity
+
+### Microsoft 365 Business Basic (Recommended)
+- **Cost:** £4.60/user/month (often £5.60 with VAT)
+- **Includes:** Email, OneDrive (1TB), Teams, web Office apps
+- **Why:** Most UK businesses use it, good value, integrates with everything
+- **Best for:** Most trades businesses
+- **NorthWest Heating uses:** Microsoft 365 Business Basic
+
+### Google Workspace
+- **Cost:** £4.14/user/month (Business Starter)
+- **Why:** Good if you prefer Google tools
+- **Best for:** Businesses already using Gmail
+- **Note:** Either Microsoft or Google is fine, pick one and stick with it
+
+**Don't use:** Free personal Gmail/Outlook for business (unprofessional, no support)
+
+---
+
+## 💼 Accounting Software
+
+### Xero (Recommended)
+- **Cost:** £12/month (Early), £30/month (Growing)
+- **Why:** Popular in UK, cloud-based, integrates with banks
+- **Best for:** Most small trades businesses
+- **NorthWest Heating uses:** Xero
+
+### QuickBooks Online
+- **Cost:** £10/month (Simple Start), £20/month (Essentials)
+- **Why:** Also popular, good features
+- **Best for:** Alternative to Xero if you prefer it
+
+### Sage
+- **Cost:** £10/month (Accounting Start)
+- **Why:** Traditional choice, widely used
+- **Best for:** Those already familiar with Sage
+
+**All three are good. Pick based on what your accountant recommends.**
+
+---
+
+## 🛠️ Job Management
+
+### Tradify
+- **Cost:** From £29/month
+- **Why:** Built for trades, easy to use, mobile-first
+- **Best for:** Plumbers, electricians, HVAC
+- **NorthWest Heating uses:** Tradify
+
+### ServiceM8
+- **Cost:** From £29/month
+- **Why:** Popular in UK, good features, integrates with Xero
+- **Best for:** Similar to Tradify, try both
+
+### Fergus
+- **Cost:** From £79/month
+- **Why:** More features, better for larger teams
+- **Best for:** Growing businesses (10+ staff)
+
+**Don't use:** Pen and paper, Excel spreadsheets (fine when tiny, doesn't scale)
+
+---
+
+## 🔒 Antivirus
+
+### Windows Defender (Recommended for Most)
+- **Cost:** Free (built into Windows 10/11)
+- **Why:** Actually very good, no additional cost
+- **Best for:** Small businesses on Windows
+- **NorthWest Heating uses:** Windows Defender
+
+### Bitdefender
+- **Cost:** ~£25/device/year
+- **Why:** Excellent protection, lightweight
+- **Best for:** If you want paid solution
+
+### ESET
+- **Cost:** ~£30/device/year
+- **Why:** Good balance of security and performance
+- **Best for:** Alternative to Bitdefender
+
+**Don't need:** Norton, McAfee (bloated, expensive, Windows Defender is fine)
+
+---
+
+## ☁️ Cloud Storage & Backup
+
+### OneDrive (Recommended if using Microsoft 365)
+- **Cost:** Included with Microsoft 365 (1TB per user)
+- **Why:** Integrates with Windows, automatic sync
+- **Best for:** Microsoft 365 users
+- **NorthWest Heating uses:** OneDrive
+
+### Google Drive
+- **Cost:** Included with Google Workspace (30GB-2TB depending on plan)
+- **Why:** Integrates with Google Workspace
+- **Best for:** Google Workspace users
+
+### Dropbox Business
+- **Cost:** £10/user/month (3TB)
+- **Why:** Good if not using Microsoft/Google
+- **Best for:** Standalone cloud storage need
+
+**Don't use:** Consumer Dropbox/Google Drive for business data (use business versions)
+
+---
+
+## 📱 Mobile Device Management
+
+### Find My Device (Android) / Find My iPhone (Recommended for Small Businesses)
+- **Cost:** Free (built-in)
+- **Why:** Remote locate and wipe capability
+- **Best for:** Small businesses (under 10 devices)
+- **NorthWest Heating uses:** Find My Device (Samsung phones)
+
+### Microsoft Intune
+- **Cost:** From £4.40/user/month
+- **Why:** Full MDM solution, integrates with Microsoft 365
+- **Best for:** Larger businesses (15+ devices) or complex requirements
+
+**Don't need:** Expensive MDM for small fleet of phones (built-in tools work fine)
+
+---
+
+## 🌐 Website and Hosting
+
+### WordPress (CMS) + Reputable Hosting
+- **Hosting cost:** £5-15/month (123-reg, SiteGround, etc.)
+- **Why:** Popular, flexible, easy to update
+- **Best for:** Most trades businesses
+- **Security:** Keep WordPress and plugins updated, use security plugins
+
+### Squarespace / Wix
+- **Cost:** £10-20/month (all-in-one)
+- **Why:** Very easy, no technical knowledge needed
+- **Best for:** Simple sites, those who want easy
+
+**Key:** Whatever you use, keep it updated and have SSL certificate (https://)
+
+---
+
+## 💳 Payment Processing
+
+### Stripe
+- **Cost:** 1.5% + 20p per transaction (online)
+- **Why:** Easy to integrate, good features
+- **Best for:** Online payments, invoicing
+- **NorthWest Heating uses:** Stripe for online payments
+
+### GoCardless
+- **Cost:** 1% per transaction (Direct Debit)
+- **Why:** Great for recurring payments
+- **Best for:** Regular monthly customers
+
+### SumUp / iZettle
+- **Cost:** Card reader ~£30, 1.69% per transaction
+- **Why:** Simple card payments on-site
+- **Best for:** Taking payment at customer sites
+
+**Don't:** Store credit card details yourself (let payment processor handle it)
+
+---
+
+## 🔐 Two-Factor Authentication Apps
+
+### Microsoft Authenticator (Recommended)
+- **Cost:** Free
+- **Why:** Works well with Microsoft 365, backup to cloud
+- **Best for:** Businesses using Microsoft 365
+- **NorthWest Heating uses:** Microsoft Authenticator
+
+### Google Authenticator
+- **Cost:** Free
+- **Why:** Simple, works everywhere
+- **Best for:** Anyone not using Microsoft
+
+### Authy
+- **Cost:** Free
+- **Why:** Multi-device sync, backup
+- **Best for:** Those wanting backups
+
+**All three are good. Pick one and stick with it.**
+
+---
+
+## 💻 Operating Systems
+
+### Windows 10/11 Pro (Recommended for Office Computers)
+- **Cost:** £180-220 (one-time, or comes with new PC)
+- **Why:** BitLocker encryption, domain join, widely supported
+- **Best for:** Office laptops/desktops
+- **NorthWest Heating uses:** Windows 11
+
+### Don't use:
+- Windows 7/8 (no longer supported, security risk)
+- Windows Home (missing BitLocker encryption)
+
+---
+
+## 📱 Mobile Devices
+
+### Samsung Galaxy A Series (Budget)
+- **Cost:** £150-250
+- **Why:** Good value, business features, regular updates
+- **Best for:** Company phones on budget
+- **NorthWest Heating uses:** Samsung Galaxy A34
+
+### iPhone (Premium but Long-lasting)
+- **Cost:** £400-500 (iPhone SE/older models)
+- **Why:** Long software support, secure, reliable
+- **Best for:** If budget allows or BYOD
+
+**Don't buy:** Very cheap unknown brands (poor security updates)
+
+---
+
+## 🔧 What NorthWest Heating Uses (Complete Stack)
+
+**Total monthly software cost: ~£180**
+
+| Category | Tool | Cost/month |
+|----------|------|------------|
+| Email & Office | Microsoft 365 Business Basic | £40 (8 users) |
+| Accounting | Xero | £30 |
+| Job Management | Tradify | £29 |
+| Password Manager | Bitwarden | £0 (free tier) |
+| Antivirus | Windows Defender | £0 (included) |
+| Cloud Storage | OneDrive | £0 (included with M365) |
+| Payment Processing | Stripe | Pay-per-transaction |
+| Phone Security | Find My Device | £0 (built-in) |
+| Website | WordPress on 123-reg | £10 |
+| Broadband | BT Business | £40 |
+| **TOTAL** | | **~£180/month** |
+
+**Plus annual:**
+- Cyber Essentials renewal: £350/year (£29/month)
+
+**Grand total: ~£210/month for complete business IT stack**
+
+---
+
+## 💡 Money-Saving Tips
+
+### Use Free Tiers When Adequate
+- Bitwarden free vs. paid: Free works fine for under 10 users
+- Windows Defender vs. paid antivirus: Defender is excellent
+- Built-in phone security vs. MDM: Fine for small fleets
+
+**Potential savings: £50-100/month**
+
+### Bundle Where Possible
+- Microsoft 365 includes email + storage + office
+- Don't pay separately for email, storage, and office apps
+
+**Potential savings: £30-50/month**
+
+### Annual Plans
+- Many tools offer 15-20% discount for annual payment
+- Cyber Essentials slightly cheaper on renewal
+
+**Potential savings: 15-20% if cash flow allows**
+
+### Avoid These Traps
+- ❌ Paying for consumer and business versions (pick one)
+- ❌ Redundant tools (two password managers, two antivirus)
+- ❌ Features you don't need (enterprise plans for 8 people)
+- ❌ Per-seat pricing when you have contractors (pay for actual staff only)
+
+---
+
+## 🎯 Recommendations by Business Size
+
+### 1-5 Employees (Very Small)
+- Microsoft 365 Business Basic or Google Workspace
+- Xero or QuickBooks
+- Bitwarden free
+- Windows Defender
+- Built-in phone security
+- Simple WordPress site
+- **~£100-150/month**
+
+### 6-15 Employees (Small - NorthWest Heating)
+- Everything above, plus:
+- Job management software (Tradify/ServiceM8)
+- Consider paid password manager
+- External backup drive
+- **~£180-250/month**
+
+### 16-30 Employees (Medium)
+- Everything above, plus:
+- Microsoft 365 Business Standard (desktop Office apps)
+- Consider Intune for mobile device management
+- Paid antivirus if preferred
+- **~£400-600/month**
+
+---
+
+## ❓ Common Questions
+
+**"Should we use free or paid tools?"**
+Free tools (Bitwarden free, Windows Defender) are often perfectly adequate. Pay for things where it genuinely adds value (Microsoft 365, Xero, job management).
+
+**"Mac or PC?"**
+PCs are fine for trades businesses and cheaper. Macs work but more expensive and some trades-specific software is Windows-only.
+
+**"Android or iPhone for company phones?"**
+Both work. Android is cheaper (£150-250 vs £400+), iPhones last longer (5+ years support vs 3-4 years). Pick based on budget.
+
+**"Do we need business-grade everything?"**
+Yes for: Email, accounting, cloud storage
+No for: Antivirus (Windows Defender fine), backup (OneDrive fine)
+
+---
+
+## 🔗 Where to Buy
+
+**Software:**
+- Direct from vendor websites (Microsoft, Xero, etc.)
+- Avoid resellers unless they add value
+
+**Hardware:**
+- Phones: Currys, Amazon, direct from Samsung/Apple
+- Computers: Currys, Amazon, Dell, HP direct
+
+**Get business VAT invoices for everything.**
+
+---
+
+**The right tools make security easier. But expensive doesn't always mean better. Start with free/cheap options, upgrade only if you genuinely need the extra features.**
