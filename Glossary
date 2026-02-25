@@ -1,0 +1,356 @@
+# Security Glossary
+
+**Security terms explained in plain English for trades businesses**
+
+---
+
+## 🔤 How to Use This Glossary
+
+Security has a lot of jargon. This glossary translates it into normal English.
+
+**Format:** Term → What it actually means → Example
+
+---
+
+## A
+
+**Access Control**
+What it means: Controlling who can access what systems and data
+Example: Only Sarah and James can access Xero, engineers can only access their own jobs in Tradify
+
+**Admin / Administrator**
+What it means: User account with full permissions to install software and change settings
+Example: James has admin on the office computers to install updates
+
+**Antivirus**
+What it means: Software that detects and removes malicious software (viruses, malware)
+Example: Windows Defender running on your laptops
+
+**Authenticator App**
+What it means: Mobile app that generates one-time codes for multi-factor authentication
+Example: Microsoft Authenticator on your phone for logging into email
+
+---
+
+## B
+
+**Backup**
+What it means: Copy of your data stored separately so you can recover if original is lost
+Example: OneDrive automatically backing up your gas certificates
+
+**BitLocker**
+What it means: Windows encryption tool that scrambles data so it's useless if device stolen
+Example: BitLocker on your external backup drive
+
+**Breach / Data Breach**
+What it means: When personal data is accessed, stolen, or lost without permission
+Example: If someone hacks your email and sees customer addresses
+
+**BYOD (Bring Your Own Device)**
+What it means: Employees using their personal phones/laptops for work
+Example: Engineer using their personal iPhone for work email instead of company phone
+
+---
+
+## C
+
+**Cloud / Cloud Storage**
+What it means: Storing data on internet servers instead of your local computer
+Example: Xero, OneDrive, Microsoft 365 are all cloud services
+
+**Credentials**
+What it means: Username and password used to log into a system
+Example: Your Xero login credentials (email + password)
+
+**Cyber Essentials**
+What it means: UK government security certification showing basic cyber security controls
+Example: The certification you need to bid on council contracts
+
+**Cybersecurity**
+What it means: Protecting computers, networks, and data from attacks or unauthorized access
+Example: Everything in this security kit
+
+---
+
+## D
+
+**Data Protection / GDPR**
+What it means: UK/EU law governing how you handle personal information
+Example: Rules about storing customer names and addresses securely
+
+**Default Password**
+What it means: Pre-set password that comes with a device (often "admin" or "password")
+Example: Your router's password before you changed it
+
+**Encryption**
+What it means: Scrambling data so it's unreadable without the right key/password
+Example: Your phone automatically encrypts data so thieves can't read it
+
+---
+
+## E
+
+**Email Compromise / Account Takeover**
+What it means: Someone gaining unauthorized access to your email account
+Example: Hacker guessing your password and sending fake invoices from your email
+
+---
+
+## F
+
+**Firewall**
+What it means: Security system that blocks unauthorized access to your network
+Example: Your BT router has a built-in firewall protecting your office network
+
+**Firmware**
+What it means: Software built into hardware devices like routers
+Example: BT router firmware that needs occasional updates
+
+---
+
+## G
+
+**GDPR (General Data Protection Regulation)**
+What it means: UK/EU law about protecting people's personal data
+Example: Why you need a privacy policy and have to keep customer data secure
+
+---
+
+## H
+
+**Hacker / Hacking**
+What it means: Person trying to gain unauthorized access to computer systems
+Example: Someone trying to guess your password to break into your email
+
+---
+
+## I
+
+**ICO (Information Commissioner's Office)**
+What it means: UK government body enforcing data protection laws
+Example: Who you report serious data breaches to (within 72 hours)
+
+**Incident**
+What it means: Security event that could compromise data or systems
+Example: Lost phone, suspected hack, ransomware, data sent to wrong person
+
+---
+
+## M
+
+**Malware**
+What it means: Malicious software designed to harm computers or steal data
+Example: Viruses, ransomware, spyware - things your antivirus protects against
+
+**MFA / Multi-Factor Authentication / 2FA / Two-Factor Authentication**
+What it means: Using two different things to prove who you are (e.g., password + code from phone)
+Example: Logging into email with password plus code from Microsoft Authenticator app
+
+**MDM (Mobile Device Management)**
+What it means: Software to manage and secure company phones remotely
+Example: Find My Device on your Samsung phones for remote wipe
+
+---
+
+## N
+
+**NCSC (National Cyber Security Centre)**
+What it means: UK government agency providing cyber security guidance
+Example: Organization behind Cyber Essentials certification
+
+---
+
+## P
+
+**Password Manager**
+What it means: Software that stores all your passwords securely in one encrypted place
+Example: Bitwarden storing all company passwords
+
+**Patch / Patching**
+What it means: Software update that fixes security vulnerabilities
+Example: Windows Update installing security patches monthly
+
+**Phishing**
+What it means: Fake emails trying to trick you into giving passwords or clicking malicious links
+Example: Email pretending to be from supplier asking you to update payment details
+
+**PIN**
+What it means: Personal Identification Number (usually 4-6 digits for phone locks)
+Example: 6-digit code to unlock your company Samsung phone
+
+**Policy**
+What it means: Document explaining your rules and procedures
+Example: Your Password Policy explaining how to create and manage passwords
+
+---
+
+## R
+
+**Ransomware**
+What it means: Malicious software that encrypts your files and demands payment to unlock them
+Example: Virus that locks all your files and demands £5,000 in Bitcoin
+
+**Remote Wipe**
+What it means: Deleting all data from a device remotely (without physically having it)
+Example: Wiping a lost company phone using Find My Device
+
+**Risk Assessment**
+What it means: Identifying what could go wrong and how likely/serious it is
+Example: Listing risks like "lost phone with customer data" and rating likelihood and impact
+
+---
+
+## S
+
+**SaaS (Software as a Service)**
+What it means: Software you access via web browser rather than installing locally
+Example: Xero, Tradify, Microsoft 365 - all accessed through browser/app
+
+**Secure Configuration**
+What it means: Setting up devices and software securely (removing unnecessary features, changing defaults)
+Example: Changing your router's default admin password
+
+**Security Incident**
+What it means: Event that threatens security of data or systems
+Example: Lost phone, phishing email clicked, unauthorized access
+
+**SIM Swap**
+What it means: Scam where attacker convinces phone company to transfer your number to their SIM
+Example: How SMS-based 2FA can be bypassed (why authenticator apps are better)
+
+**SME (Small and Medium Enterprise)**
+What it means: Small or medium-sized business
+Example: Your trades business (8 employees qualifies as SME)
+
+**Spam**
+What it means: Unsolicited junk email
+Example: Random marketing emails, fake lottery wins, obvious scams
+
+**Spyware**
+What it means: Malicious software that secretly monitors what you do
+Example: Software that records what you type to steal passwords
+
+---
+
+## T
+
+**Threat**
+What it means: Something that could cause security problems
+Example: Phishing emails, lost devices, hackers, ransomware
+
+**Two-Factor Authentication → see MFA**
+
+---
+
+## U
+
+**Unauthorized Access**
+What it means: Someone accessing data or systems they shouldn't have permission for
+Example: Ex-employee still able to log into Xero after leaving
+
+**USB / USB Drive**
+What it means: Portable storage device (memory stick)
+Example: USB stick with company files (should be encrypted)
+
+---
+
+## V
+
+**VPN (Virtual Private Network)**
+What it means: Encrypted connection that protects data when using public WiFi
+Example: Using VPN when accessing Xero from coffee shop WiFi (recommended)
+
+**Virus**
+What it means: Type of malware that spreads by copying itself
+Example: What antivirus software protects against
+
+**Vulnerability**
+What it means: Weakness in software or systems that could be exploited
+Example: Old Windows version with known security flaws
+
+---
+
+## W
+
+**Web Browser**
+What it means: Software you use to access websites
+Example: Google Chrome, Microsoft Edge, Safari, Firefox
+
+**WiFi / Wi-Fi**
+What it means: Wireless internet connection
+Example: Your office BT broadband WiFi network
+
+---
+
+## Common Acronyms Quick Reference
+
+| Acronym | Stands For | Plain English |
+|---------|-----------|---------------|
+| **2FA** | Two-Factor Authentication | Using password + phone code to log in |
+| **BYOD** | Bring Your Own Device | Staff using personal phones for work |
+| **CE** | Cyber Essentials | UK security certification |
+| **GDPR** | General Data Protection Regulation | Data protection law |
+| **ICO** | Information Commissioner's Office | UK data protection regulator |
+| **MFA** | Multi-Factor Authentication | Same as 2FA |
+| **NCSC** | National Cyber Security Centre | UK government cyber security body |
+| **OS** | Operating System | Windows, macOS, Android, iOS |
+| **PIN** | Personal Identification Number | Number code to unlock device |
+| **SAR** | Subject Access Request | Customer asking for their data |
+| **SaaS** | Software as a Service | Cloud software like Xero |
+| **SME** | Small and Medium Enterprise | Small/medium business |
+| **SMS** | Short Message Service | Text message |
+| **VPN** | Virtual Private Network | Encrypted internet connection |
+
+---
+
+## Phrases You'll Hear (Translated)
+
+**"We need to enable MFA"**
+= Set up the code-from-phone thing when logging in
+
+**"Have you patched your systems?"**
+= Have you installed the latest updates?
+
+**"What's your backup strategy?"**
+= How do you recover if data is lost?
+
+**"We should implement access controls"**
+= Decide who can access what and enforce it
+
+**"That's a phishing email"**
+= Fake email trying to trick you, don't click it
+
+**"Your credentials were compromised"**
+= Someone else has your password
+
+**"We need to do a risk assessment"**
+= List what could go wrong and plan for it
+
+**"Enable your firewall"**
+= Turn on the thing that blocks bad internet traffic
+
+**"Use encryption"**
+= Scramble data so thieves can't read it
+
+**"That device needs to be hardened"**
+= Make it more secure (updates, password, etc.)
+
+---
+
+## When Talking to Customers
+
+**They say:** "Are you GDPR compliant?"  
+**You say:** "Yes, we comply with UK data protection law. We have policies for handling customer data securely and a privacy policy on our website."
+
+**They say:** "Do you have Cyber Essentials?"  
+**You say:** "Yes, we're Cyber Essentials certified." (Once you've passed)
+
+**They say:** "How do you protect our data?"  
+**You say:** "We use password protection, encryption, secure cloud storage, and regular backups. Our staff are trained on data security."
+
+**They say:** "What happens if there's a data breach?"  
+**You say:** "We have incident response procedures to contain it quickly, we'll notify you and the ICO if required, and we have insurance to cover costs."
+
+---
+
+**Don't use jargon with customers. Use this glossary to understand technical terms, then explain in simple English when talking to clients.**
